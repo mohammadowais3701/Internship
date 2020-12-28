@@ -1,0 +1,6 @@
+E:\Work\StringComaparison\StringComaparison\bin\Debug\StringComaparison.exe.config
+E:\Work\StringComaparison\StringComaparison\bin\Debug\StringComaparison.exe
+E:\Work\StringComaparison\StringComaparison\bin\Debug\StringComaparison.pdb
+E:\Work\StringComaparison\StringComaparison\obj\Debug\StringComaparison.exe
+E:\Work\StringComaparison\StringComaparison\obj\Debug\StringComaparison.pdb
+E:\Work\StringComaparison\StringComaparison\obj\Debug\StringComaparison.csprojResolveAssemblyReference.cache

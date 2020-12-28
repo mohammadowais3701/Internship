@@ -1,0 +1,6 @@
+E:\Work\XMLRead\XMLRead\bin\Debug\XMLRead.exe.config
+E:\Work\XMLRead\XMLRead\bin\Debug\XMLRead.exe
+E:\Work\XMLRead\XMLRead\bin\Debug\XMLRead.pdb
+E:\Work\XMLRead\XMLRead\obj\Debug\XMLRead.csprojResolveAssemblyReference.cache
+E:\Work\XMLRead\XMLRead\obj\Debug\XMLRead.exe
+E:\Work\XMLRead\XMLRead\obj\Debug\XMLRead.pdb

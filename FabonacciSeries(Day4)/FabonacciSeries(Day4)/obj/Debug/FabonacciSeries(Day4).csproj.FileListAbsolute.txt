@@ -1,0 +1,6 @@
+E:\Work\FabonacciSeries(Day4)\FabonacciSeries(Day4)\bin\Debug\FabonacciSeries(Day4).exe.config
+E:\Work\FabonacciSeries(Day4)\FabonacciSeries(Day4)\bin\Debug\FabonacciSeries(Day4).exe
+E:\Work\FabonacciSeries(Day4)\FabonacciSeries(Day4)\bin\Debug\FabonacciSeries(Day4).pdb
+E:\Work\FabonacciSeries(Day4)\FabonacciSeries(Day4)\obj\Debug\FabonacciSeries(Day4).csprojResolveAssemblyReference.cache
+E:\Work\FabonacciSeries(Day4)\FabonacciSeries(Day4)\obj\Debug\FabonacciSeries(Day4).exe
+E:\Work\FabonacciSeries(Day4)\FabonacciSeries(Day4)\obj\Debug\FabonacciSeries(Day4).pdb

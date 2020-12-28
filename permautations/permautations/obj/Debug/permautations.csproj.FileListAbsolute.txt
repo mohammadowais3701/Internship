@@ -1,0 +1,6 @@
+E:\Work\permautations\permautations\bin\Debug\permautations.exe.config
+E:\Work\permautations\permautations\bin\Debug\permautations.exe
+E:\Work\permautations\permautations\bin\Debug\permautations.pdb
+E:\Work\permautations\permautations\obj\Debug\permautations.csprojResolveAssemblyReference.cache
+E:\Work\permautations\permautations\obj\Debug\permautations.exe
+E:\Work\permautations\permautations\obj\Debug\permautations.pdb

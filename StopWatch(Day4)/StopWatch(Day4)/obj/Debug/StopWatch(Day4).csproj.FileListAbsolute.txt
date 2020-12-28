@@ -1,0 +1,6 @@
+E:\Work\StopWatch(Day4)\StopWatch(Day4)\bin\Debug\StopWatch(Day4).exe.config
+E:\Work\StopWatch(Day4)\StopWatch(Day4)\bin\Debug\StopWatch(Day4).exe
+E:\Work\StopWatch(Day4)\StopWatch(Day4)\bin\Debug\StopWatch(Day4).pdb
+E:\Work\StopWatch(Day4)\StopWatch(Day4)\obj\Debug\StopWatch(Day4).exe
+E:\Work\StopWatch(Day4)\StopWatch(Day4)\obj\Debug\StopWatch(Day4).pdb
+E:\Work\StopWatch(Day4)\StopWatch(Day4)\obj\Debug\StopWatch(Day4).csprojResolveAssemblyReference.cache

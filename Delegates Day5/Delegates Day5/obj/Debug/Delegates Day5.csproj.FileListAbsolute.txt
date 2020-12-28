@@ -1,0 +1,6 @@
+E:\Work\Delegates Day5\Delegates Day5\bin\Debug\Delegates Day5.exe.config
+E:\Work\Delegates Day5\Delegates Day5\bin\Debug\Delegates Day5.exe
+E:\Work\Delegates Day5\Delegates Day5\bin\Debug\Delegates Day5.pdb
+E:\Work\Delegates Day5\Delegates Day5\obj\Debug\Delegates Day5.csprojResolveAssemblyReference.cache
+E:\Work\Delegates Day5\Delegates Day5\obj\Debug\Delegates Day5.exe
+E:\Work\Delegates Day5\Delegates Day5\obj\Debug\Delegates Day5.pdb

@@ -1,0 +1,6 @@
+E:\Work\ArrayStoring\ArrayStoring\bin\Debug\ArrayStoring.exe.config
+E:\Work\ArrayStoring\ArrayStoring\bin\Debug\ArrayStoring.exe
+E:\Work\ArrayStoring\ArrayStoring\bin\Debug\ArrayStoring.pdb
+E:\Work\ArrayStoring\ArrayStoring\obj\Debug\ArrayStoring.csprojResolveAssemblyReference.cache
+E:\Work\ArrayStoring\ArrayStoring\obj\Debug\ArrayStoring.exe
+E:\Work\ArrayStoring\ArrayStoring\obj\Debug\ArrayStoring.pdb

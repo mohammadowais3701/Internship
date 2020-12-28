@@ -1,0 +1,6 @@
+E:\Work\httpWebReq_Day5\httpWebReq_Day5\bin\Debug\httpWebReq_Day5.exe.config
+E:\Work\httpWebReq_Day5\httpWebReq_Day5\bin\Debug\httpWebReq_Day5.exe
+E:\Work\httpWebReq_Day5\httpWebReq_Day5\bin\Debug\httpWebReq_Day5.pdb
+E:\Work\httpWebReq_Day5\httpWebReq_Day5\obj\Debug\httpWebReq_Day5.csprojResolveAssemblyReference.cache
+E:\Work\httpWebReq_Day5\httpWebReq_Day5\obj\Debug\httpWebReq_Day5.exe
+E:\Work\httpWebReq_Day5\httpWebReq_Day5\obj\Debug\httpWebReq_Day5.pdb

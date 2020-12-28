@@ -1,0 +1,6 @@
+E:\Work\DateTime(day4)\DateTime(day4)\bin\Debug\DateTime(day4).exe.config
+E:\Work\DateTime(day4)\DateTime(day4)\bin\Debug\DateTime(day4).exe
+E:\Work\DateTime(day4)\DateTime(day4)\bin\Debug\DateTime(day4).pdb
+E:\Work\DateTime(day4)\DateTime(day4)\obj\Debug\DateTime(day4).csprojResolveAssemblyReference.cache
+E:\Work\DateTime(day4)\DateTime(day4)\obj\Debug\DateTime(day4).exe
+E:\Work\DateTime(day4)\DateTime(day4)\obj\Debug\DateTime(day4).pdb
