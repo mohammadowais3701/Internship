@@ -1,0 +1,6 @@
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Release\JsonParsing Day6.exe.config
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Release\JsonParsing Day6.exe
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Release\JsonParsing Day6.pdb
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Release\Newtonsoft.Json.dll
+E:\Work\JsonParsing Day6\JsonParsing Day6\obj\Release\JsonParsing Day6.exe
+E:\Work\JsonParsing Day6\JsonParsing Day6\obj\Release\JsonParsing Day6.pdb

@@ -23,9 +23,12 @@ namespace httpWebReq_Day5
                 //  byte[] data = cl1.DownloadData("http://www.contoso.com/");
                 //cl1.DownloadFile("http://www.contoso.com/", "temp.asp");
 
-                Stream dat = cl1.OpenRead("http://www.contoso.com/");
+               // Stream dat = cl1.OpenRead("http://www.contoso.com/");
+                WebRequest req = WebRequest.Create("http://www.contoso.com/");
+                WebResponse res = req.GetResponse();
+                
 
-                StreamReader reader = new StreamReader(dat);
+                StreamReader reader = new StreamReader(res.GetResponseStream());
                 string str = "";
                
                 while ((str=reader.ReadLine())!=null)
@@ -35,7 +38,7 @@ namespace httpWebReq_Day5
                   
 
                 }
-                dat.Close();
+                res.Close();
             }
             catch (Exception ex)
             {

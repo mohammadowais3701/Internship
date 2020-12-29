@@ -1,0 +1,7 @@
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Debug\JsonParsing Day6.exe.config
+E:\Work\JsonParsing Day6\JsonParsing Day6\obj\Debug\JsonParsing Day6.csprojResolveAssemblyReference.cache
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Debug\JsonParsing Day6.exe
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Debug\JsonParsing Day6.pdb
+E:\Work\JsonParsing Day6\JsonParsing Day6\bin\Debug\Newtonsoft.Json.dll
+E:\Work\JsonParsing Day6\JsonParsing Day6\obj\Debug\JsonParsing Day6.exe
+E:\Work\JsonParsing Day6\JsonParsing Day6\obj\Debug\JsonParsing Day6.pdb
