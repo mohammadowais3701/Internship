@@ -1,0 +1,8 @@
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\bin\Debug\JSON_Parsing(Day7).exe.config
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\obj\Debug\JSON_Parsing(Day7).csprojResolveAssemblyReference.cache
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\bin\Debug\JSON_Parsing(Day7).exe
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\bin\Debug\JSON_Parsing(Day7).pdb
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\bin\Debug\System.Json.dll
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\obj\Debug\JSON_Parsing(Day7).exe
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\obj\Debug\JSON_Parsing(Day7).pdb
+E:\Work\JSON_Parsing(Day7)\JSON_Parsing(Day7)\bin\Debug\Newtonsoft.Json.dll

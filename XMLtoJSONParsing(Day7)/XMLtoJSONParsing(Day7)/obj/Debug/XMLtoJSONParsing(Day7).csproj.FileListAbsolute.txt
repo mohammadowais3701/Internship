@@ -1,0 +1,7 @@
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\bin\Debug\XMLtoJSONParsing(Day7).exe.config
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\bin\Debug\XMLtoJSONParsing(Day7).exe
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\bin\Debug\XMLtoJSONParsing(Day7).pdb
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\bin\Debug\Newtonsoft.Json.dll
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\obj\Debug\XMLtoJSONParsing(Day7).csprojResolveAssemblyReference.cache
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\obj\Debug\XMLtoJSONParsing(Day7).exe
+E:\Work\XMLtoJSONParsing(Day7)\XMLtoJSONParsing(Day7)\obj\Debug\XMLtoJSONParsing(Day7).pdb

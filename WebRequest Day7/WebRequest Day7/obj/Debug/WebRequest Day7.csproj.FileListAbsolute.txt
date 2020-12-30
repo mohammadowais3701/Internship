@@ -1,0 +1,6 @@
+E:\Work\WebRequest Day7\WebRequest Day7\bin\Debug\WebRequest Day7.exe.config
+E:\Work\WebRequest Day7\WebRequest Day7\bin\Debug\WebRequest Day7.exe
+E:\Work\WebRequest Day7\WebRequest Day7\bin\Debug\WebRequest Day7.pdb
+E:\Work\WebRequest Day7\WebRequest Day7\obj\Debug\WebRequest Day7.csprojResolveAssemblyReference.cache
+E:\Work\WebRequest Day7\WebRequest Day7\obj\Debug\WebRequest Day7.exe
+E:\Work\WebRequest Day7\WebRequest Day7\obj\Debug\WebRequest Day7.pdb
