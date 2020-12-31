@@ -18,20 +18,12 @@ namespace XMLtoJSONParsing_Day7_
                         <FirstName > Muhammad</FirstName>
                         <LastName> Owais</LastName>
                         </Name>
-                        <Hobby>
-                            Travelling
-                        </Hobby>
-                        <Hobby>
-                            To Explore new places
-                        </Hobby>
+                        <Hobby>Travelling</Hobby>
+                        <Hobby>To Explore new places</Hobby>
 
-                        <University campus='main'>
-                            UOK
-                           </University>
+                        <University campus='main'>UOK</University>
 
-                        <Department >
-                              Computer Science
-                        </Department>
+                        <Department >Computer Science</Department>
 
 
                     </Description>";
@@ -46,20 +38,21 @@ namespace XMLtoJSONParsing_Day7_
                 Console.WriteLine(ex.Message);
             
             }
-            string jsonText = JsonConvert.SerializeObject(myxml);//Convert into Object
+            string jsonText = JsonConvert.SerializeXmlNode(myxml);
             Console.WriteLine(jsonText);
             Console.WriteLine();
             //Deserialize a jsonText into xml
             myxml = JsonConvert.DeserializeXmlNode(jsonText);
            // Console.WriteLine(myxml.InnerXml);
-            
-            XmlNodeList nodes = myxml.SelectNodes("//Description/University[@campus='main']");
+
+            XmlNodeList nodes = myxml.SelectNodes("//Description");///University[@campus='main']");
             
             foreach (XmlNode node in nodes) {
 
-                Console.WriteLine((node.InnerText).Trim());
+         Console.WriteLine(node.InnerXml);
             
             }
+            Console.WriteLine();
         }
     }
 }

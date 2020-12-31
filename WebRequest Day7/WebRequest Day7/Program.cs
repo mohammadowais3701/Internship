@@ -17,18 +17,18 @@ namespace WebRequest_Day7
             a.Name="Ali";
             try
             {
-                WebRequest req = WebRequest.Create("https://ptsv2.com/t/d45yr-1609319583/post/");
+                WebRequest req = WebRequest.Create("https://ptsv2.com/t/gl2j1-1609398507/post");
                 req.Method = "POST";
                 string str = "{'Name':'Owais','Age':21}";
                 byte[] byt = Encoding.UTF8.GetBytes(str);
 
-                req.ContentType = "json";
+                req.ContentType = "text/plain";
                 Stream dstrea = req.GetRequestStream();
                 dstrea.Write(byt, 0, byt.Length);
                 dstrea.Close();
                 WebResponse res = req.GetResponse();
             //    Console.WriteLine(res.GetResponseStream());
-                Console.WriteLine(res);
+                Console.WriteLine(res.ContentType);
             }
             catch (Exception ex) {
                 Console.WriteLine("First Try Catch");

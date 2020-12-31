@@ -1,0 +1,6 @@
+E:\Work\StringRegex\StringRegex\bin\Debug\StringRegex.exe.config
+E:\Work\StringRegex\StringRegex\bin\Debug\StringRegex.exe
+E:\Work\StringRegex\StringRegex\bin\Debug\StringRegex.pdb
+E:\Work\StringRegex\StringRegex\obj\Debug\StringRegex.csprojResolveAssemblyReference.cache
+E:\Work\StringRegex\StringRegex\obj\Debug\StringRegex.exe
+E:\Work\StringRegex\StringRegex\obj\Debug\StringRegex.pdb

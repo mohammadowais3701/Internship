@@ -1,0 +1,8 @@
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\bin\Debug\ScrapingJobsRozee_WebRequest(Day8).exe.config
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\bin\Debug\ScrapingJobsRozee_WebRequest(Day8).exe
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\bin\Debug\ScrapingJobsRozee_WebRequest(Day8).pdb
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\obj\Debug\ScrapingJobsRozee_WebRequest(Day8).exe
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\obj\Debug\ScrapingJobsRozee_WebRequest(Day8).pdb
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\bin\Debug\Newtonsoft.Json.dll
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\obj\Debug\ScrapingJobsRozee_WebRequest(Day8).csprojResolveAssemblyReference.cache
+E:\Work\ScrapingJobsRozee_WebRequest(Day8)\ScrapingJobsRozee_WebRequest(Day8)\bin\Debug\System.Json.dll

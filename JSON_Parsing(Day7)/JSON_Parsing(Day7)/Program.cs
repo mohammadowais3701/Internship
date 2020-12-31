@@ -31,6 +31,8 @@ namespace JSON_Parsing_Day7_
                 Console.WriteLine(ex.Message);
             
             }
+
+            
             try
             {
                 dynamic jsonmsg = JsonConvert.DeserializeObject(str);
