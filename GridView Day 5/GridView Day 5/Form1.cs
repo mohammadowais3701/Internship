@@ -72,7 +72,10 @@ namespace GridView_Day_5
                                  isstop = false;
                                  row.Cells["counter"].Value = Convert.ToInt32(row.Cells["counter"].Value) + 1;
 
+                             
+
                                  Thread.Sleep(1000);
+                               
 
                              }
                        
