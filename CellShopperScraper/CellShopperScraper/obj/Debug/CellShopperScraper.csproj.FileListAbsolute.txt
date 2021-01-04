@@ -1,0 +1,10 @@
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\CellShopperScraper.exe.config
+E:\Work\CellShopperScraper\CellShopperScraper\obj\Debug\CellShopperScraper.csprojResolveAssemblyReference.cache
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\CellShopperScraper.exe
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\CellShopperScraper.pdb
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\HtmlAgilityPack.dll
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\Newtonsoft.Json.dll
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\HtmlAgilityPack.pdb
+E:\Work\CellShopperScraper\CellShopperScraper\bin\Debug\HtmlAgilityPack.xml
+E:\Work\CellShopperScraper\CellShopperScraper\obj\Debug\CellShopperScraper.exe
+E:\Work\CellShopperScraper\CellShopperScraper\obj\Debug\CellShopperScraper.pdb
