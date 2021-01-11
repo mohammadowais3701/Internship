@@ -56,7 +56,7 @@
             this.cityDataGridViewTextBoxColumn,
             this.countryDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.dataClassBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(-3, 1);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 24);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(735, 150);
             this.dataGridView1.TabIndex = 0;

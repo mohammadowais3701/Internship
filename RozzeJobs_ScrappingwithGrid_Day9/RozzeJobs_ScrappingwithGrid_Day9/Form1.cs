@@ -51,16 +51,17 @@ namespace RozzeJobs_ScrappingwithGrid_Day9
             dat = new BindingList<DataClass>();
             dataClassBindingSource.DataSource = dat;
             d1 = new SetValueDelegate(func);
+            
             getStart();
             
         }
 
         private void Printer()
         {
-            fm = Application.OpenForms;
+          
             try
             {   while(!isclosed)
-                while (fm[0].Text == "Form1")
+                //while (fm[0].Text == "Form1")
                 {
                     Jobs();
                     d1();
@@ -121,10 +122,7 @@ namespace RozzeJobs_ScrappingwithGrid_Day9
 
            try
            {
-              // w = new StreamWriter("output.csv");
-               //var newLine = string.Format("JOB_ID,TITLE,DESCRIPTION,DISPLAY DATE,LINK,CITY,COUNTRY");
-               //w.WriteLine(newLine);
-               //w.Flush();
+             
                num = 0;
                link = "https://www.rozee.pk/job/jsearch/q/all/fc/1184/fpn/";
                rq = WebRequest.Create(link + num);
@@ -320,29 +318,12 @@ namespace RozzeJobs_ScrappingwithGrid_Day9
 
 
 
-                   /* if (flag == 1)
-                    {
-                        // Console.WriteLine(flag);
-                        break;
-                    }*/
+           
                }
 
 
 
-               //var newLine = string.Format("{0},{1},{2},{3},{4},{5},{6}", jid, title, des, displaydate, permalink, city, country);
-
-
-               //w.WriteLine(newLine);
-               //w.Flush();
-
-
-
-               /*   if (flag == 1)
-                  {
-                      //Console.WriteLine(flag);
-                      break;
-                  }*/
-
+             
 
 
            }

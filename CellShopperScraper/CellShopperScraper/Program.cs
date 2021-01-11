@@ -9,6 +9,7 @@ using System.Xml;
 using System.IO;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using System.Diagnostics;
 
 
 namespace CellShopperScraper
@@ -16,16 +17,19 @@ namespace CellShopperScraper
     class Program
     {
 
+        static int records;
         static StreamWriter w;
         private static long counter;
-        static List<ProductDetails> myproducts=new List<ProductDetails>();
+        static List<ProductDetails> myproducts = new List<ProductDetails>();
 
 
         static void Main(string[] args)
         {
-
+          //  Console.WriteLine(Process.GetCurrentProcess().Threads.Count);
+            records = 0;
             cellShopper("http://cellshopper.com");
             //          makeWebRequest("http://cellshopper.com");
+
 
 
         }
@@ -37,6 +41,7 @@ namespace CellShopperScraper
         {
             Stream data;
             Uri uri = new Uri(web);
+
             Console.WriteLine(uri);
             HttpWebRequest myreq = (HttpWebRequest)WebRequest.CreateHttp(uri);
             WebProxy proxy = new WebProxy("127.0.0.1", 8888);
@@ -44,6 +49,7 @@ namespace CellShopperScraper
 
             myreq.Method = "GET";
             myreq.AllowAutoRedirect = false;
+            myreq.ReadWriteTimeout = 10000;
 
 
             HttpWebResponse myres = (HttpWebResponse)myreq.GetResponse();
@@ -99,7 +105,7 @@ namespace CellShopperScraper
         static void cellShopper(string s)
         {
             Stream data;
-           
+
 
             try
             {
@@ -114,26 +120,27 @@ namespace CellShopperScraper
                 w.Close();
 
                 data = makeWebRequest(s);
+                
                 var page = new HtmlDocument();
 
                 page.Load(data);
-              
-              if( page.DocumentNode.SelectSingleNode("//div[@id='primarynav']/ul[1]/li/a")!=null)
 
+                if (page.DocumentNode.SelectSingleNode("//div[@id='primarynav']/ul[1]/li/a") != null)
                 {
 
                     HtmlNodeCollection nodes = page.DocumentNode.SelectNodes("//div[@id='primarynav']/ul[1]/li/a");
                     foreach (var n in nodes)
                     {
-                      //  Console.WriteLine(n.Attributes["href"].Value);
+                        //  Console.WriteLine(n.Attributes["href"].Value);
 
 
+                        Console.WriteLine(Process.GetCurrentProcess().Threads.Count);
 
                         Thread t1 = new Thread(() => InternalLink("http://cellshopper.com/store/" + n.Attributes["href"].Value));
-                            t1.Start();
+                        t1.Start();
 
                         //InternalLink("http://cellshopper.com/store/" + n.Attributes["href"].Value);
-                      
+
 
 
                     }
@@ -211,7 +218,7 @@ namespace CellShopperScraper
 
 
         }
-      static  Object myobj = new object();
+        static Object myobj = new object();
         static void InternalLink3(string s)
         {
 
@@ -233,8 +240,8 @@ namespace CellShopperScraper
                     return;
 
                 }
-                
-                
+
+
 
 
                 ProductDetails obj = new ProductDetails();
@@ -247,7 +254,7 @@ namespace CellShopperScraper
                         obj.productName = Convert.ToString(k);
                     }
                     Console.WriteLine();
-                    obj.productName = obj.productName.Split('>')[1].Split('<')[0].Replace(",","");
+                    obj.productName = obj.productName.Split('>')[1].Split('<')[0].Replace(",", "");
 
                     mt = Regex.Matches(page.DocumentNode.InnerHtml, "Item Code:.*<");
                     foreach (Match k in mt)
@@ -303,29 +310,32 @@ namespace CellShopperScraper
                 }
                 obj.cat = obj.cat.Remove(obj.cat.Length - 1);
 
-                Interlocked.Increment(ref counter);
+              Interlocked.Increment(ref counter);
 
-                var newLine = string.Format("{0},{1},{2},{3},{4},{5}", obj.productName, obj.itemCode, obj.itemId, obj.weight, obj.price, obj.cat);
+                //  var newLine = string.Format("{0},{1},{2},{3},{4},{5}", obj.productName, obj.itemCode, obj.itemId, obj.weight, obj.price, obj.cat);
                 lock (myobj)
-                {   int check=0;
-                foreach (ProductDetails product in myproducts)
                 {
-                    if (product.itemId.Equals(obj.itemId))
+                   // int check = 0;
+                    foreach (ProductDetails product in myproducts)
                     {
-                        check = 1;
-                        break;
+                        if (product.itemId.Equals(obj.itemId))
+                        {
+                            // check = 1;
+                            //break;
+                            return;
+                        }
+
                     }
-                    if (check == 0) {
+
                         myproducts.Add(obj);
-                    
-                    }
-                }
+
                     
 
-                   // File.AppendAllLines("output.csv", new String[] { newLine });
+                 writeProducts();
+                    // File.AppendAllLines("output.csv", new String[] { newLine });
 
                 }
-
+            //    writeProducts();
                 Console.Title = counter.ToString();
 
                 nodes = page.DocumentNode.SelectNodes("//a[@class='thickbox']");
@@ -337,8 +347,7 @@ namespace CellShopperScraper
                 Directory.CreateDirectory(obj.itemCode);
                 string localFilename = obj.itemCode;
                 int i = 1;
-                lock (myobj)
-                {
+              
                     foreach (var n in nodes)
                     {
 
@@ -352,11 +361,12 @@ namespace CellShopperScraper
 
 
                     }
-                }
+
+                
 
 
                 data.Close();
-
+             
 
             }
             catch (Exception ex)
@@ -378,7 +388,7 @@ namespace CellShopperScraper
             foreach (var n in nodes)
             {
                 string att = (n.Attributes["href"].Value).Replace("amp;", "");
-               
+
                 Console.WriteLine("http://cellshopper.com/store/" + att);
                 comparision = att;
                 InternalLink("http://cellshopper.com/store/" + att);
@@ -386,9 +396,19 @@ namespace CellShopperScraper
             }
 
         }
-        static void writeProducts() { 
-        
-        
+        static void writeProducts()
+        {
+            
+                for (int i = records; i < myproducts.Count; i++)
+                {
+                    var newLine = string.Format("{0},{1},{2},{3},{4},{5}", myproducts[i].productName, myproducts[i].itemCode, myproducts[i].itemId, myproducts[i].weight, myproducts[i].price, myproducts[i].cat);
+                    File.AppendAllLines("output.csv", new String[] { newLine });
+                    records++;
+                }
+
+
+            
+
         }
 
     }
