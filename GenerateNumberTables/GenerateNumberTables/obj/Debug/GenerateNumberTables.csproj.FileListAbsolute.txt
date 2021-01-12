@@ -1,0 +1,6 @@
+E:\Work\GenerateNumberTables\GenerateNumberTables\bin\Debug\GenerateNumberTables.exe.config
+E:\Work\GenerateNumberTables\GenerateNumberTables\bin\Debug\GenerateNumberTables.exe
+E:\Work\GenerateNumberTables\GenerateNumberTables\bin\Debug\GenerateNumberTables.pdb
+E:\Work\GenerateNumberTables\GenerateNumberTables\obj\Debug\GenerateNumberTables.csprojResolveAssemblyReference.cache
+E:\Work\GenerateNumberTables\GenerateNumberTables\obj\Debug\GenerateNumberTables.exe
+E:\Work\GenerateNumberTables\GenerateNumberTables\obj\Debug\GenerateNumberTables.pdb

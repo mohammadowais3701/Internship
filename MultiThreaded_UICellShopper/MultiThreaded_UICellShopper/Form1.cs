@@ -58,6 +58,7 @@ namespace MultiThreaded_UICellShopper
         }
         private void button1_Click(object sender, EventArgs e)
         {
+        
           
             try {
                 FillGrid();
@@ -140,46 +141,38 @@ namespace MultiThreaded_UICellShopper
       void cellShopper(string s)
         {
             Stream data;
-
+            int threads;
+            try
+            {
+                threads = Convert.ToInt32(textBox1.Text);
+            }
+            catch(Exception ex) {
+                threads = 5;
+            }
 
             try
             {
-
                 data = makeWebRequest(s);
-
                 var page = new HtmlAgilityPack.HtmlDocument();
-
                 page.Load(data);
-
                 if (page.DocumentNode.SelectSingleNode("//div[@id='primarynav']/ul[1]/li/a") != null)
                 {
-
+                    ThreadPool.SetMinThreads(1, 1);
+                    ThreadPool.SetMaxThreads(threads, threads);
                     HtmlNodeCollection nodes = page.DocumentNode.SelectNodes("//div[@id='primarynav']/ul[1]/li/a");
-                    for (int i=0; i < nodes.Count-1;i++ )
+               
+                    foreach (var n in nodes)
                     {
-                        //  Console.WriteLine(n.Attributes["href"].Value);
-
-
-                      
-                      StartThreads(nodes[i]);
-                      if(check==false){
-                      
-                      i--;
-                      }
-                       
-
+                      //  Console.WriteLine(n.Attributes["href"].Value);
+                       ThreadPool.QueueUserWorkItem(InternalLink, "http://cellshopper.com/store/" + n.Attributes["href"].Value); 
+                    //    new Thread(() => InternalLink("http://cellshopper.com/store/" + n.Attributes["href"].Value)).Start();
                     }
-
                 }
-
-
                 data.Close();
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-
             }
 
 
@@ -188,87 +181,57 @@ namespace MultiThreaded_UICellShopper
 
 
         }
-    void InternalLink(string s)
+    void InternalLink(Object s)
         {
-
+            String st = s as string;
             Stream data;
             try
             {
-                data = makeWebRequest(s);
-
+                data = makeWebRequest(st);
                 var page = new HtmlAgilityPack.HtmlDocument();
-
                 page.Load(data);
-
                 if (page.DocumentNode.SelectNodes("//div[@id='content']/div[@id='phonelist']/a") != null)
                 {
-
-
                     HtmlNodeCollection nodes = page.DocumentNode.SelectNodes("//div[@id='content']/div[@id='phonelist']/a[not(.//img)]");
                     phoneList_productList(nodes);
-
                 }
                 else if (page.DocumentNode.SelectNodes("//div[@id='content']//div[@id='products_list']/a") != null)
                 {
-
                     HtmlNodeCollection nodes = page.DocumentNode.SelectNodes("//div[@id='content']//div[@id='products_list']/a");
                     phoneList_productList(nodes);
-
                 }
                 else if (page.DocumentNode.SelectNodes("//div[@id='product_page_details']") != null)
                 {
-
-
-                    InternalLink3(s);
-
+                    InternalLink3(st);
                 }
                 else
                 {
                     return;
-
                 }
                 data.Close();
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-
             }
-
-
-
         }
-        static Object myobj = new object();
+     static Object myobj = new object();
      void InternalLink3(string s)
         {
-
-            Stream data;
-           
-
+            Stream data;  
             try
             {
                 data = makeWebRequest(s);
-
                 var page = new HtmlAgilityPack.HtmlDocument();
-
                 page.Load(data);
-
-
                 HtmlNodeCollection nodes = page.DocumentNode.SelectNodes("//div[@id='product_page_details']");
                 if (nodes == null)
                 {
                     return;
-
                 }
-
-
-
-
                 ProductDetails obj = new ProductDetails();
-
                 //foreach (var n in nodes)
-                {
+               
                     MatchCollection mt = Regex.Matches(page.DocumentNode.InnerHtml, "<h2 style=.*>");
                     foreach (var k in mt)
                     {
@@ -310,140 +273,95 @@ namespace MultiThreaded_UICellShopper
                     else
                         obj.price = prices[0];
 
-                
-
-                }
-
                 obj.cat = "";
                 nodes = page.DocumentNode.SelectNodes("//div[@id='bread-crumb']/a");
                 if (nodes == null)
                 {
                     return;
-
                 }
                 foreach (var n in nodes)
                 {
                     obj.cat += n.InnerText + ":";
                 }
                 obj.cat = obj.cat.Remove(obj.cat.Length - 1);
-
-                
-
               lock(myobj){
-
                   foreach (ProductDetails product in myproducts)
                   {
-                     
                       if (product.itemId.Equals(obj.itemId))
-                      {
-                         
+                      {      
                           return;
                       }
-
                   }
                mydele(obj);
             }
-                
                 nodes = page.DocumentNode.SelectNodes("//a[@class='thickbox']");
                 if (nodes == null)
                 {
                     return;
-
                 }
                 Directory.CreateDirectory(obj.itemCode);
                 string localFilename = obj.itemCode;
                 int i = 1;
-
                 foreach (var n in nodes)
                 {
-
-
                     using (WebClient client = new WebClient())
                     {
                         client.DownloadFile(n.Attributes["href"].Value, localFilename + "/" + i + ".jpg");
                     }
                     i++;
-                   
-
-
                 }
-
-
-
-
                 data.Close();
-
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show("In Internal Link3 " + ex.Message);
-
             }
-
-
-
-
         }
 
-
-        void phoneList_productList(HtmlNodeCollection nodes)
+void phoneList_productList(HtmlNodeCollection nodes)
         {
             string comparision = "";
             foreach (var n in nodes)
             {
-                string att = (n.Attributes["href"].Value).Replace("amp;", "");
-
-               
+                string att = (n.Attributes["href"].Value).Replace("amp;", "");               
                 comparision = att;
                 InternalLink("http://cellshopper.com/store/" + att);
 
             }
-
         }
-      void writeData(ProductDetails obj) {
+void writeData(ProductDetails obj) {
             try
             {
-
                 if (dataGridView1.InvokeRequired)
-                {
-
-                    
+                {       
                     dataGridView1.Invoke(new MethodInvoker(() =>
                     {  myproducts.Add(new ProductDetails() { itemCode = obj.itemCode, productName = obj.productName, price = obj.price, itemId = obj.itemId, weight = obj.weight, cat = obj.cat });
                     }));
                 }
                 else
                 {
-                    myproducts.Add(new ProductDetails() { itemCode = obj.itemCode, productName = obj.productName, price = obj.price, itemId = obj.itemId, weight = obj.weight, cat = obj.cat });
-                   
+                    myproducts.Add(new ProductDetails() { itemCode = obj.itemCode, productName = obj.productName, price = obj.price, itemId = obj.itemId, weight = obj.weight, cat = obj.cat });  
                 }
             }
             catch (Exception ex)
             {
-              //  Debug.WriteLine(ex.Message);
+               Debug.WriteLine(ex.Message);
             }
         
         }
-      Object lockobj = new object();
-       bool StartThreads(HtmlNode node) {
+     
+bool StartThreads(HtmlNode node) {
         check=false;
-        lock(lockobj)
               //  Console.WriteLine(n.Attributes["href"].Value);
-         
-
           if (myThreadsRunning.Count <= Convert.ToInt32(textBox1.Text))
           {
               check=true;
               myThreadsRunning.Add(new Thread(() => InternalLink("http://cellshopper.com/store/" + node.Attributes["href"].Value)));
               myThreadsRunning[myThreadsRunning.Count - 1].Start();
               return check;
-
-
           }
           else {
               for (int i = 0; i < myThreadsRunning.Count; i++) {
-
                   if (myThreadsRunning[i].ThreadState.Equals("Stopped")) {
                       MessageBox.Show(i+"Thread Stopped");
                       myThreadsRunning.RemoveAt(i);
@@ -451,27 +369,10 @@ namespace MultiThreaded_UICellShopper
                       myThreadsRunning[myThreadsRunning.Count - 1].Start();
                       check=true;
                   }
-                  
-                  
               }
               return check;
-
-
-             
           }
-
-
-              
-
-
-
-
-              //     InternalLink("http://cellshopper.com/store/" + n.Attributes["href"].Value);
-
-
-      }
-          
-      
-      }
+}
+           }
     
-    }
+  }
