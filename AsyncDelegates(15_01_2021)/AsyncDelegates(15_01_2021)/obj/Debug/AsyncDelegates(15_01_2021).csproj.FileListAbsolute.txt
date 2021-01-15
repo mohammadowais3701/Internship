@@ -1,0 +1,6 @@
+E:\Work\AsyncDelegates(15_01_2021)\AsyncDelegates(15_01_2021)\bin\Debug\AsyncDelegates(15_01_2021).exe.config
+E:\Work\AsyncDelegates(15_01_2021)\AsyncDelegates(15_01_2021)\bin\Debug\AsyncDelegates(15_01_2021).exe
+E:\Work\AsyncDelegates(15_01_2021)\AsyncDelegates(15_01_2021)\bin\Debug\AsyncDelegates(15_01_2021).pdb
+E:\Work\AsyncDelegates(15_01_2021)\AsyncDelegates(15_01_2021)\obj\Debug\AsyncDelegates(15_01_2021).csprojResolveAssemblyReference.cache
+E:\Work\AsyncDelegates(15_01_2021)\AsyncDelegates(15_01_2021)\obj\Debug\AsyncDelegates(15_01_2021).exe
+E:\Work\AsyncDelegates(15_01_2021)\AsyncDelegates(15_01_2021)\obj\Debug\AsyncDelegates(15_01_2021).pdb

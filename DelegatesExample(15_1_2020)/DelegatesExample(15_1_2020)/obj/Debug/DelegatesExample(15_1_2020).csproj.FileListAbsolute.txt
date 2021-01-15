@@ -1,0 +1,6 @@
+E:\Work\DelegatesExample(15_1_2020)\DelegatesExample(15_1_2020)\bin\Debug\DelegatesExample(15_1_2020).exe.config
+E:\Work\DelegatesExample(15_1_2020)\DelegatesExample(15_1_2020)\obj\Debug\DelegatesExample(15_1_2020).csprojResolveAssemblyReference.cache
+E:\Work\DelegatesExample(15_1_2020)\DelegatesExample(15_1_2020)\bin\Debug\DelegatesExample(15_1_2020).exe
+E:\Work\DelegatesExample(15_1_2020)\DelegatesExample(15_1_2020)\bin\Debug\DelegatesExample(15_1_2020).pdb
+E:\Work\DelegatesExample(15_1_2020)\DelegatesExample(15_1_2020)\obj\Debug\DelegatesExample(15_1_2020).exe
+E:\Work\DelegatesExample(15_1_2020)\DelegatesExample(15_1_2020)\obj\Debug\DelegatesExample(15_1_2020).pdb

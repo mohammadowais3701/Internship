@@ -21,7 +21,7 @@ namespace GenerateNumberTables
             {
                 Console.WriteLine("Enter Number of threads");
                 th = Convert.ToInt32(Console.ReadLine());
-                ThreadPool.SetMinThreads(1,1);
+                 ThreadPool.SetMinThreads(1,1);
                  ThreadPool.SetMaxThreads(th, th);  
                
                     ThreadPool.QueueUserWorkItem(new WaitCallback(mytable1), 1);

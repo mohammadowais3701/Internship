@@ -1,0 +1,10 @@
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\ticktekAutomate.exe.config
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\ticktekAutomate.exe
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\ticktekAutomate.pdb
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\HtmlAgilityPack.dll
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\Newtonsoft.Json.dll
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\HtmlAgilityPack.pdb
+E:\Work\ticktekAutomate\ticktekAutomate\bin\Debug\HtmlAgilityPack.xml
+E:\Work\ticktekAutomate\ticktekAutomate\obj\Debug\ticktekAutomate.csprojResolveAssemblyReference.cache
+E:\Work\ticktekAutomate\ticktekAutomate\obj\Debug\ticktekAutomate.exe
+E:\Work\ticktekAutomate\ticktekAutomate\obj\Debug\ticktekAutomate.pdb

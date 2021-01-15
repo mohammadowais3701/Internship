@@ -80,15 +80,12 @@ namespace MultiThreaded_UICellShopper
 
            
             HttpWebRequest myreq = (HttpWebRequest)WebRequest.CreateHttp(uri);
-            WebProxy proxy = new WebProxy("127.0.0.1", 8888);
-            myreq.Proxy = proxy;
-
+           // WebProxy proxy = new WebProxy("127.0.0.1", 8888);
+           // myreq.Proxy = proxy;
             myreq.Method = "GET";
             myreq.AllowAutoRedirect = false;
-            myreq.ReadWriteTimeout = 10000;
-            myreq.Timeout = 10000;
-
-
+            myreq.ReadWriteTimeout = 100000;
+            myreq.Timeout = 100000;
             HttpWebResponse myres = (HttpWebResponse)myreq.GetResponse();
 
           
@@ -230,49 +227,63 @@ namespace MultiThreaded_UICellShopper
                     return;
                 }
                 ProductDetails obj = new ProductDetails();
+                
                 //foreach (var n in nodes)
-               
+                
                     MatchCollection mt = Regex.Matches(page.DocumentNode.InnerHtml, "<h2 style=.*>");
+                   
                     foreach (var k in mt)
                     {
                         obj.productName = Convert.ToString(k);
                     }
-                    Console.WriteLine();
-                    obj.productName = obj.productName.Split('>')[1].Split('<')[0].Replace(",", "");
+                
+                        obj.productName = obj.productName.Split('>')[1].Split('<')[0].Replace(",", "");
 
                     mt = Regex.Matches(page.DocumentNode.InnerHtml, "Item Code:.*<");
-                    foreach (Match k in mt)
-                    {
-                        obj.itemCode = k.Value;
-                    }
+                  
+                        foreach (Match k in mt)
+                        {
+                            obj.itemCode = k.Value;
+                        }
+                    
                     obj.itemCode = obj.itemCode.Split('<')[0].Split(':')[1].Trim().Replace("&nbsp;", "");
 
                     mt = Regex.Matches(page.DocumentNode.InnerHtml, "Item ID:.*<");
-                    foreach (Match k in mt)
-                    {
-                        obj.itemId = k.Value;
-                    }
+                    
+                        foreach (Match k in mt)
+                        {
+                            obj.itemId = k.Value;
+                        }
                     obj.itemId = obj.itemId.Split('<')[0].Split(':')[1].Replace("&nbsp;", "");
 
                     mt = Regex.Matches(page.DocumentNode.InnerHtml, "Weight.*<");
-                    foreach (Match k in mt)
-                    {
-                        obj.weight = k.Value;
-                    }
-                    obj.weight = obj.weight.Split('<')[0].Split(':')[1].Replace("&nbsp;", "");
-
+                  
+                        foreach (Match k in mt)
+                        {
+                            obj.weight = k.Value;
+                        }
+                    
+                 
+                 try
+                    {   obj.weight = obj.weight.Split('<')[0].Split(':')[1].Replace("&nbsp;", "");
+                 
+                
                     mt = Regex.Matches(page.DocumentNode.InnerHtml, "Price:.*<");
+                   
+                        foreach (Match k in mt)
+                        {
+                            obj.price = k.Value;
+                        }
+                    
+                   
+                  
+                        string[] prices = obj.price.Split(':')[1].Replace("&nbsp;", "").Replace("<s>", "").Replace("</s>", ",").Replace("<", "").Split(',');
 
-                    foreach (Match k in mt)
-                    {
-                        obj.price = k.Value;
-                    }
-                    string[] prices = obj.price.Split(':')[1].Replace("&nbsp;", "").Replace("<s>", "").Replace("</s>", ",").Replace("<", "").Split(',');
-                    if (prices.Length == 2)
-                        obj.price = prices[1];
-                    else
-                        obj.price = prices[0];
-
+                        if (prices.Length == 2)
+                            obj.price = prices[1];
+                        else
+                            obj.price = prices[0];
+                  
                 obj.cat = "";
                 nodes = page.DocumentNode.SelectNodes("//div[@id='bread-crumb']/a");
                 if (nodes == null)
@@ -283,7 +294,14 @@ namespace MultiThreaded_UICellShopper
                 {
                     obj.cat += n.InnerText + ":";
                 }
+
                 obj.cat = obj.cat.Remove(obj.cat.Length - 1);
+            }
+                 catch (Exception ex)
+                 {
+                     Console.WriteLine(obj.cat);
+                     Console.WriteLine("In weight \n" + ex.Message);
+                 }
               lock(myobj){
                   foreach (ProductDetails product in myproducts)
                   {

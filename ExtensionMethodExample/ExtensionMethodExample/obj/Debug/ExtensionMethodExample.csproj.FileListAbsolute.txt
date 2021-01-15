@@ -1,0 +1,5 @@
+E:\Work\ExtensionMethodExample\ExtensionMethodExample\bin\Debug\ExtensionMethodExample.exe.config
+E:\Work\ExtensionMethodExample\ExtensionMethodExample\bin\Debug\ExtensionMethodExample.exe
+E:\Work\ExtensionMethodExample\ExtensionMethodExample\bin\Debug\ExtensionMethodExample.pdb
+E:\Work\ExtensionMethodExample\ExtensionMethodExample\obj\Debug\ExtensionMethodExample.exe
+E:\Work\ExtensionMethodExample\ExtensionMethodExample\obj\Debug\ExtensionMethodExample.pdb

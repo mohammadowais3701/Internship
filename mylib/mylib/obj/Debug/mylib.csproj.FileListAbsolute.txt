@@ -1,0 +1,14 @@
+E:\Work\mylib\mylib\bin\Debug\mylib.dll
+E:\Work\mylib\mylib\bin\Debug\mylib.pdb
+E:\Work\mylib\mylib\bin\Debug\mylib.pri
+E:\Work\mylib\mylib\obj\Debug\mylib.dll
+E:\Work\mylib\mylib\obj\Debug\mylib.pdb
+E:\Work\mylib\mylib\obj\Debug\priconfig.xml.intermediate
+E:\Work\mylib\mylib\obj\Debug\layout.resfiles.intermediate
+E:\Work\mylib\mylib\obj\Debug\resources.resfiles.intermediate
+E:\Work\mylib\mylib\obj\Debug\pri.resfiles.intermediate
+E:\Work\mylib\mylib\obj\Debug\priconfig.xml
+E:\Work\mylib\mylib\obj\Debug\layout.resfiles
+E:\Work\mylib\mylib\obj\Debug\resources.resfiles
+E:\Work\mylib\mylib\obj\Debug\pri.resfiles
+E:\Work\mylib\mylib\obj\Debug\LanguageQualifiers.txt

@@ -1,0 +1,6 @@
+E:\Work\TPLExample1\TPLExample1\bin\Debug\TPLExample1.exe.config
+E:\Work\TPLExample1\TPLExample1\bin\Debug\TPLExample1.exe
+E:\Work\TPLExample1\TPLExample1\bin\Debug\TPLExample1.pdb
+E:\Work\TPLExample1\TPLExample1\obj\Debug\TPLExample1.csprojResolveAssemblyReference.cache
+E:\Work\TPLExample1\TPLExample1\obj\Debug\TPLExample1.exe
+E:\Work\TPLExample1\TPLExample1\obj\Debug\TPLExample1.pdb
