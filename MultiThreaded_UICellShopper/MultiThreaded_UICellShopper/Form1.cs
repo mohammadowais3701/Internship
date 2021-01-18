@@ -171,13 +171,8 @@ namespace MultiThreaded_UICellShopper
             {
                 MessageBox.Show(ex.Message);
             }
-
-
-
-
-
-
         }
+
     void InternalLink(Object s)
         {
             String st = s as string;
@@ -185,6 +180,9 @@ namespace MultiThreaded_UICellShopper
             try
             {
                 data = makeWebRequest(st);
+                
+                Debug.WriteLine("Thread -> " + s.ToString());
+
                 var page = new HtmlAgilityPack.HtmlDocument();
                 page.Load(data);
                 if (page.DocumentNode.SelectNodes("//div[@id='content']/div[@id='phonelist']/a") != null)
