@@ -1,0 +1,8 @@
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\ClientWCF1.exe.config
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\ClientWCF1.exe
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\ClientWCF1.pdb
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\WcfServiceLibrary1.dll
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\WcfServiceLibrary1.pdb
+E:\Work\WcfServiceLibrary1\ClientWCF1\obj\Debug\ClientWCF1.csprojResolveAssemblyReference.cache
+E:\Work\WcfServiceLibrary1\ClientWCF1\obj\Debug\ClientWCF1.exe
+E:\Work\WcfServiceLibrary1\ClientWCF1\obj\Debug\ClientWCF1.pdb
