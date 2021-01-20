@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.ServiceModel;
+using WcfServiceLibrary1;
 
 //using ClientWCF1.ServiceReference1;
 
@@ -19,15 +20,16 @@ namespace ClientWCF1
            /* string address = "http://localhost:8733/WcfServiceLibrary1/Service1";
             string binding = "wsHttpBinding";
             string contract = "IService1";*/
-            WSHttpBinding wsBindind = new WSHttpBinding();
-            EndpointAddress endpointAddress = new EndpointAddress("http://localhost:8733/WcfServiceLibrary1/Service1");
-           // MyContractClient proxy = new MyContractClient(""); 
+            ChannelFactory<IService1> channelFactory = null; 
+            BasicHttpBinding wsBinding = new BasicHttpBinding();
+            EndpointAddress endpointAddress = new EndpointAddress("http://localhost:8733/WcfServiceLibrary1");
             
-            /*Info info;
-            Service1Client client;
+            channelFactory = new ChannelFactory<IService1>(wsBinding, endpointAddress);
+            IService1 client = channelFactory.CreateChannel();
+            Info info;      
             try
             {
-                client= new Service1Client();
+             //   client= new Service1Client();
 
 
                 int a, b, age;
@@ -65,13 +67,13 @@ namespace ClientWCF1
                
                 Console.WriteLine("\nPress <Enter> to terminate the client.");
                 Console.ReadLine();
-                client.Close();
+              
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
 
-            }*/
+            }
         }
     }
 }

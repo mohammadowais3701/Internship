@@ -22,17 +22,17 @@ namespace WcfServiceLibrary1
         int mul(int val1, int val2);
         [OperationContract]
         int div(int val1, int val2);
-     /*   [OperationContract]
+      [OperationContract]
         Info GetInfo(Info info);
         [OperationContract]
-        String encoded(Encoded en);*/
+        String encoded(Encoded en);
 
         // TODO: Add your service operations here
     }
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
     // You can add XSD files into the project. After building the project, you can directly use the data types defined there, with the namespace "WcfServiceLibrary1.ContractType".
-   /* [DataContract]
+   [DataContract]
     public class Info
     {
         string name = "";
@@ -40,7 +40,7 @@ namespace WcfServiceLibrary1
         [DataMember]
         public string myName
         {
-            get { return "My Name is " + name; }
+            get { return name; }
             set { name = value; }
         }
         [DataMember]
@@ -51,6 +51,7 @@ namespace WcfServiceLibrary1
         }
 
     }
+    [DataContract]
     public class Encoded
     {
         string text = "";
@@ -82,5 +83,5 @@ namespace WcfServiceLibrary1
             get { return key; }
         }
 
-    }*/
+    }
 }

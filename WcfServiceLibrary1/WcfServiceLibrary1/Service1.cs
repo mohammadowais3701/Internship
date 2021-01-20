@@ -18,12 +18,10 @@ namespace WcfServiceLibrary1
         }
         public int sub(int num1, int num2)
         {
-
             return num1 - num2;
         }
         public int mul(int num1, int num2)
         {
-
             return num1 * num2;
         }
         public int div(int num1, int num2)
@@ -36,24 +34,20 @@ namespace WcfServiceLibrary1
             {
                 num2 = 1;
                 return num1 / num2;
-
             }
             catch (Exception ex)
             {
                 return 0;
-
             }
         }
-      /*  public Info GetInfo(Info info)
+      public Info GetInfo(Info info)
         {
-            Console.WriteLine(info.myName);
+           // Console.WriteLine(info.myName);
             return info;
         }
         public String encoded(Encoded e)
         {
             return e.myText;
-
-        }*/
-
+        }
     }
 }
