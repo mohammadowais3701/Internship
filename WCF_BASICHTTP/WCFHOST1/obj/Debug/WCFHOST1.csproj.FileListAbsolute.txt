@@ -1,0 +1,16 @@
+E:\Work\WcfServiceLibrary1\WCFHOST1\bin\Debug\WCFHOST1.exe.config
+E:\Work\WcfServiceLibrary1\WCFHOST1\bin\Debug\WCFHOST1.exe
+E:\Work\WcfServiceLibrary1\WCFHOST1\bin\Debug\WCFHOST1.pdb
+E:\Work\WcfServiceLibrary1\WCFHOST1\bin\Debug\WcfServiceLibrary1.dll
+E:\Work\WcfServiceLibrary1\WCFHOST1\bin\Debug\WcfServiceLibrary1.pdb
+E:\Work\WcfServiceLibrary1\WCFHOST1\obj\Debug\WCFHOST1.csprojResolveAssemblyReference.cache
+E:\Work\WcfServiceLibrary1\WCFHOST1\obj\Debug\WCFHOST1.exe
+E:\Work\WcfServiceLibrary1\WCFHOST1\obj\Debug\WCFHOST1.pdb
+E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\WCFHOST1.exe.config
+E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\WCFHOST1.exe
+E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\WCFHOST1.pdb
+E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\WCF_BASICHTTP.dll
+E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\WCF_BASICHTTP.pdb
+E:\Work\WCF_BASICHTTP\WCFHOST1\obj\Debug\WCFHOST1.csprojResolveAssemblyReference.cache
+E:\Work\WCF_BASICHTTP\WCFHOST1\obj\Debug\WCFHOST1.exe
+E:\Work\WCF_BASICHTTP\WCFHOST1\obj\Debug\WCFHOST1.pdb

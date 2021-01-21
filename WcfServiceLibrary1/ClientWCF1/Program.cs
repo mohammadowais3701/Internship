@@ -17,12 +17,12 @@ namespace ClientWCF1
         
         static void Main(string[] args)
         {
-           /* string address = "http://localhost:8733/WcfServiceLibrary1/Service1";
+           /* string address = "http://localhost:8733/WcfServiceLibrary1";
             string binding = "wsHttpBinding";
             string contract = "IService1";*/
             ChannelFactory<IService1> channelFactory = null; 
-            BasicHttpBinding wsBinding = new BasicHttpBinding();
-            EndpointAddress endpointAddress = new EndpointAddress("http://localhost:8733/WcfServiceLibrary1");
+           WSHttpBinding wsBinding = new WSHttpBinding();
+            EndpointAddress endpointAddress = new EndpointAddress("http://localhost:8733/WcfServiceLibrary1/Service1");
             
             channelFactory = new ChannelFactory<IService1>(wsBinding, endpointAddress);
             IService1 client = channelFactory.CreateChannel();

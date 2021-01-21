@@ -1,0 +1,16 @@
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\ClientWCF1.exe.config
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\ClientWCF1.exe
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\ClientWCF1.pdb
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\WcfServiceLibrary1.dll
+E:\Work\WcfServiceLibrary1\ClientWCF1\bin\Debug\WcfServiceLibrary1.pdb
+E:\Work\WcfServiceLibrary1\ClientWCF1\obj\Debug\ClientWCF1.csprojResolveAssemblyReference.cache
+E:\Work\WcfServiceLibrary1\ClientWCF1\obj\Debug\ClientWCF1.exe
+E:\Work\WcfServiceLibrary1\ClientWCF1\obj\Debug\ClientWCF1.pdb
+E:\Work\WCF_BASICHTTP\ClientWCF1\bin\Debug\ClientWCF1.exe.config
+E:\Work\WCF_BASICHTTP\ClientWCF1\bin\Debug\ClientWCF1.exe
+E:\Work\WCF_BASICHTTP\ClientWCF1\bin\Debug\ClientWCF1.pdb
+E:\Work\WCF_BASICHTTP\ClientWCF1\bin\Debug\WCF_BASICHTTP.dll
+E:\Work\WCF_BASICHTTP\ClientWCF1\bin\Debug\WCF_BASICHTTP.pdb
+E:\Work\WCF_BASICHTTP\ClientWCF1\obj\Debug\ClientWCF1.csprojResolveAssemblyReference.cache
+E:\Work\WCF_BASICHTTP\ClientWCF1\obj\Debug\ClientWCF1.exe
+E:\Work\WCF_BASICHTTP\ClientWCF1\obj\Debug\ClientWCF1.pdb

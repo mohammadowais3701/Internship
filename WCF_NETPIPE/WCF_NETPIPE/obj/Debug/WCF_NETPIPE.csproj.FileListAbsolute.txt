@@ -1,0 +1,6 @@
+E:\Work\WCF_NETPIPE\WCF_NETPIPE\bin\Debug\WCF_NETPIPE.dll.config
+E:\Work\WCF_NETPIPE\WCF_NETPIPE\bin\Debug\WCF_NETPIPE.dll
+E:\Work\WCF_NETPIPE\WCF_NETPIPE\bin\Debug\WCF_NETPIPE.pdb
+E:\Work\WCF_NETPIPE\WCF_NETPIPE\obj\Debug\WCF_NETPIPE.csprojResolveAssemblyReference.cache
+E:\Work\WCF_NETPIPE\WCF_NETPIPE\obj\Debug\WCF_NETPIPE.dll
+E:\Work\WCF_NETPIPE\WCF_NETPIPE\obj\Debug\WCF_NETPIPE.pdb

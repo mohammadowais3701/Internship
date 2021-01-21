@@ -1,6 +1,0 @@
-E:\Work\WCFLib_TCP\WCFLib_TCP\bin\Debug\WCFLib_TCP.dll.config
-E:\Work\WCFLib_TCP\WCFLib_TCP\bin\Debug\WCFLib_TCP.dll
-E:\Work\WCFLib_TCP\WCFLib_TCP\bin\Debug\WCFLib_TCP.pdb
-E:\Work\WCFLib_TCP\WCFLib_TCP\obj\Debug\WCFLib_TCP.csprojResolveAssemblyReference.cache
-E:\Work\WCFLib_TCP\WCFLib_TCP\obj\Debug\WCFLib_TCP.dll
-E:\Work\WCFLib_TCP\WCFLib_TCP\obj\Debug\WCFLib_TCP.pdb
