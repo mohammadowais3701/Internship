@@ -1,0 +1,8 @@
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\bin\Debug\PostDATAonWCFServer.exe.config
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\bin\Debug\PostDATAonWCFServer.exe
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\bin\Debug\PostDATAonWCFServer.pdb
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\obj\Debug\PostDATAonWCFServer.exe
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\obj\Debug\PostDATAonWCFServer.pdb
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\obj\Debug\PostDATAonWCFServer.csprojResolveAssemblyReference.cache
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\bin\Debug\System.Json.dll
+E:\Work\PostDATAonWCFServer\PostDATAonWCFServer\bin\Debug\Newtonsoft.Json.dll

@@ -6,6 +6,7 @@ using System.ServiceModel;
 using System.Text;
 using System.ServiceModel.Description;
 using System.ServiceModel.Web;
+using System.IO;
 
 namespace WCF_BASICHTTP
 {
@@ -14,26 +15,28 @@ namespace WCF_BASICHTTP
     public interface IService1
     {
 
-
-
+      [OperationContract]
+        [WebGet(UriTemplate="/hello", ResponseFormat = WebMessageFormat.Json)]
+        string hello();
         [OperationContract]
-        [WebGet(UriTemplate = "/add/{val1}/{val2}")]
-        int add(int value1, int value2);
+        [WebInvoke(UriTemplate = "dataInsert/{name}", Method = "POST")]
+        string dataInsert(string name, Stream xyz);
         [OperationContract]
-        [WebGet(UriTemplate="/add/{val1}/{val2}")]
-        int sub(int val1, int val2);
-        [OperationContract]
-        [WebGet(UriTemplate = "/add/{val1}/{val2}")]
-        int mul(int val1, int val2);
-        [OperationContract]
-        [WebGet(UriTemplate = "/add/{val1}/{val2}")]
-        int div(int val1, int val2);
-        [OperationContract]
-        [WebGet(UriTemplate = "/add/{val1}/{val2}")]
-        Info GetInfo(Info info);
-        [OperationContract]
-        [WebGet(UriTemplate = "/add/{val1}/{val2}")]
-        String encoded(Encoded en);
+        [WebInvoke(UriTemplate = "dataInsert/{value1}/{value2}", Method = "POST")]
+        int add(string value1, string value2);
+        /* [OperationContract]
+         [WebInvoke(UriTemplate = "dataInsert/{value1}/{value2}", Method = "POST")]
+         int sub(string value1, string value2);
+         [OperationContract]
+         [WebInvoke(UriTemplate = "dataInsert/{value1}/{value2}", Method = "POST")]
+         int mul(int val1, int val2);
+         [OperationContract]
+         [WebInvoke(UriTemplate = "dataInsert/{value1}/{value2}", Method = "POST")]
+         int div(int val1, int val2);*/
+        //[OperationContract]
+        //Info GetInfo(Info info);
+        //[OperationContract]
+        //String encoded(Encoded en);
 
         // TODO: Add your service operations here
     }

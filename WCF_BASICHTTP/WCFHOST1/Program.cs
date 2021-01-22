@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
 using System.ServiceModel.Description;
+using System.ServiceModel.Web;
 using WCF_BASICHTTP;
 
 namespace WCFHOST1
@@ -10,13 +11,14 @@ namespace WCFHOST1
         static void Main(string[] args)
         {
             // Step 1: Create a URI to serve as the base address.
-            Uri baseAddress = new Uri("http://10.0.35.170:8735/WCF_BASICHTTP/");
+            Uri baseAddress = new Uri("http://10.0.0.209:8735/");
             // Step 2: Create a ServiceHost instance.
-            ServiceHost selfHost = new ServiceHost(typeof(Service1), baseAddress);
+            WebServiceHost selfHost = new WebServiceHost(typeof(Service1), baseAddress);
+           
             try
             {
                 // Step 3: Add a service endpoint.
-                selfHost.AddServiceEndpoint(typeof(IService1), new BasicHttpBinding(), "Service1");
+                 selfHost.AddServiceEndpoint(typeof(IService1), new WebHttpBinding(WebHttpSecurityMode.None), "");
                 // Step 4: Enable metadata exchange.
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                 smb.HttpGetEnabled = true;
