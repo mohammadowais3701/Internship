@@ -1,0 +1,6 @@
+E:\Work\TCP SERVER\TCP SERVER\bin\Debug\TCP SERVER.exe.config
+E:\Work\TCP SERVER\TCP SERVER\bin\Debug\TCP SERVER.exe
+E:\Work\TCP SERVER\TCP SERVER\bin\Debug\TCP SERVER.pdb
+E:\Work\TCP SERVER\TCP SERVER\obj\Debug\TCP SERVER.csprojResolveAssemblyReference.cache
+E:\Work\TCP SERVER\TCP SERVER\obj\Debug\TCP SERVER.exe
+E:\Work\TCP SERVER\TCP SERVER\obj\Debug\TCP SERVER.pdb

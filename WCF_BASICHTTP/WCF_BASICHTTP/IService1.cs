@@ -22,8 +22,13 @@ namespace WCF_BASICHTTP
         [WebInvoke(UriTemplate = "dataInsert/{name}", Method = "POST")]
         string dataInsert(string name, Stream xyz);
         [OperationContract]
-        [WebInvoke(UriTemplate = "dataInsert/{value1}/{value2}", Method = "POST")]
-        int add(string value1, string value2);
+        [WebInvoke(UriTemplate = "dataInsert/", Method = "POST")]
+        int add(Stream data);
+        [OperationContract]
+        [WebInvoke(UriTemplate = "dataUpload/")]
+        void push(Stream data);
+        
+       
         /* [OperationContract]
          [WebInvoke(UriTemplate = "dataInsert/{value1}/{value2}", Method = "POST")]
          int sub(string value1, string value2);
@@ -62,6 +67,10 @@ namespace WCF_BASICHTTP
         }
 
     }
+  
+
+
+
     [DataContract]
     public class Encoded
     {

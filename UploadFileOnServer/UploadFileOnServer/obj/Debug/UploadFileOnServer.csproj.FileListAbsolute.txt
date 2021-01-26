@@ -1,0 +1,6 @@
+E:\Work\UploadFileOnServer\UploadFileOnServer\bin\Debug\UploadFileOnServer.exe.config
+E:\Work\UploadFileOnServer\UploadFileOnServer\bin\Debug\UploadFileOnServer.exe
+E:\Work\UploadFileOnServer\UploadFileOnServer\bin\Debug\UploadFileOnServer.pdb
+E:\Work\UploadFileOnServer\UploadFileOnServer\obj\Debug\UploadFileOnServer.exe
+E:\Work\UploadFileOnServer\UploadFileOnServer\obj\Debug\UploadFileOnServer.pdb
+E:\Work\UploadFileOnServer\UploadFileOnServer\obj\Debug\UploadFileOnServer.csprojResolveAssemblyReference.cache

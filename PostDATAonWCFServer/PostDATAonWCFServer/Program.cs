@@ -16,17 +16,16 @@ namespace PostDATAonWCFServer
         {
             try
             {
-                HttpWebRequest req = (HttpWebRequest)WebRequest.Create("http://10.0.0.209:8735/dataInsert/4/2");
+                HttpWebRequest req = (HttpWebRequest)WebRequest.Create("http://10.0.0.209:8735/dataInsert/");
                 req.Method = "POST";
-                req.ContentType = "html/text";
-                string data = "This is post data";
+                req.ContentType = "application/x-www-form-urlencoded";
+                string data = "{\"num1\":2,\"num2\":1}";
                 byte[] arr = Encoding.UTF8.GetBytes(data);
                 Stream stdata = req.GetRequestStream();
                 stdata.Write(arr, 0, arr.Length);
                 stdata.Close();
                 var res = (HttpWebResponse)req.GetResponse();
                 var respstr = new StreamReader(res.GetResponseStream()).ReadToEnd();
-               
                 Console.WriteLine(respstr.Split('>')[1].Split('<')[0]);
                 Console.ReadLine();
             }

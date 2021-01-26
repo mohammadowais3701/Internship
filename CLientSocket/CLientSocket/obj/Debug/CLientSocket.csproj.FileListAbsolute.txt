@@ -1,0 +1,6 @@
+E:\Work\CLientSocket\CLientSocket\bin\Debug\CLientSocket.exe.config
+E:\Work\CLientSocket\CLientSocket\bin\Debug\CLientSocket.exe
+E:\Work\CLientSocket\CLientSocket\bin\Debug\CLientSocket.pdb
+E:\Work\CLientSocket\CLientSocket\obj\Debug\CLientSocket.exe
+E:\Work\CLientSocket\CLientSocket\obj\Debug\CLientSocket.pdb
+E:\Work\CLientSocket\CLientSocket\obj\Debug\CLientSocket.csprojResolveAssemblyReference.cache

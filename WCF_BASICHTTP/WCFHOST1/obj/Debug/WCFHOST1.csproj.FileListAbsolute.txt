@@ -14,3 +14,4 @@ E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\WCF_BASICHTTP.pdb
 E:\Work\WCF_BASICHTTP\WCFHOST1\obj\Debug\WCFHOST1.csprojResolveAssemblyReference.cache
 E:\Work\WCF_BASICHTTP\WCFHOST1\obj\Debug\WCFHOST1.exe
 E:\Work\WCF_BASICHTTP\WCFHOST1\obj\Debug\WCFHOST1.pdb
+E:\Work\WCF_BASICHTTP\WCFHOST1\bin\Debug\Newtonsoft.Json.dll

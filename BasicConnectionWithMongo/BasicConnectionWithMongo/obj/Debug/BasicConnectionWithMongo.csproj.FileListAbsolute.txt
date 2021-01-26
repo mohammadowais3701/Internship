@@ -1,0 +1,1 @@
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\BasicConnectionWithMongo.exe.config
