@@ -23,10 +23,15 @@ namespace CLientSocket
                 IPAddress ipAddr = ipHost.AddressList[1];
                 IPEndPoint endpoint = new IPEndPoint(ipAddr, 10245);
                 Socket Sender = new Socket(ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-                try {
+                try 
+                {
                     Sender.Connect(endpoint);
                     Console.WriteLine("Connected----{0}",Sender.RemoteEndPoint);
                     byte[] msg = new byte[1024];
+                    Console.WriteLine("Enter Your Name:");
+                    String client = Console.ReadLine();
+                    byte[] bytes = Encoding.ASCII.GetBytes(client);
+                    int byteSent = Sender.Send(bytes);
                     int byteRecv = Sender.Receive(msg);
                     Console.WriteLine("Received Text From Server={0}",Encoding.ASCII.GetString(msg, 0, byteRecv));
                     Thread sendThread = new Thread(()=>SendMsg(Sender));
@@ -36,11 +41,8 @@ namespace CLientSocket
                     while(true){
                     if(!sendThread.IsAlive|| !recvThread.IsAlive)
                     Sender.Close();
- 
-
-                    
                     }
-                }
+                 }
                 catch (Exception ex) {
                     Console.WriteLine(ex.Message);
                 }
@@ -49,8 +51,7 @@ namespace CLientSocket
                 Console.WriteLine(ex.Message);
             }
         }
-
-     static void SendMsg(Socket Sender) {
+        static void SendMsg(Socket Sender) {
          try
          {
              while (true)
@@ -62,14 +63,14 @@ namespace CLientSocket
                  {
                      break;
                  }
-
              }
          }
          catch (Exception ex) {
              Console.WriteLine(ex.Message);
          }
         }
-      static void RecvMsg(Socket Sender) {
+        static void RecvMsg(Socket Sender) {
+          try{
           string data="";
           byte[] msg = new byte[1024];
           while (true)
@@ -80,6 +81,9 @@ namespace CLientSocket
                   Console.WriteLine("Received Text From Server={0}", data);
               if (data == "-127")
                   break;  
+          }}
+          catch(Exception ex){
+          Console.WriteLine("Server Not Responding!!! Connection Lost");
           }
           }
     }

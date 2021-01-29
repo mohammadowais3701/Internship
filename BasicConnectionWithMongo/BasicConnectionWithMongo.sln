@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConnectionWithMongo", "BasicConnectionWithMongo\BasicConnectionWithMongo.csproj", "{F9E4AD5D-710A-4349-8B7F-34A4E695A5C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBPractice", "MongoDBPractice\MongoDBPractice.csproj", "{7967C9B2-DDA3-42D1-ABF2-584EB0E53984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{F9E4AD5D-710A-4349-8B7F-34A4E695A5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E4AD5D-710A-4349-8B7F-34A4E695A5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9E4AD5D-710A-4349-8B7F-34A4E695A5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7967C9B2-DDA3-42D1-ABF2-584EB0E53984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7967C9B2-DDA3-42D1-ABF2-584EB0E53984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7967C9B2-DDA3-42D1-ABF2-584EB0E53984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7967C9B2-DDA3-42D1-ABF2-584EB0E53984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,1 +1,12 @@
 E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\BasicConnectionWithMongo.exe.config
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\BasicConnectionWithMongo.exe
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\BasicConnectionWithMongo.pdb
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\MongoDB.Bson.dll
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\MongoDB.Driver.Core.dll
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\MongoDB.Driver.dll
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\MongoDB.Driver.GridFS.dll
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\MongoDB.Driver.Legacy.dll
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\bin\Debug\Newtonsoft.Json.dll
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\obj\Debug\BasicConnectionWithMongo.csprojResolveAssemblyReference.cache
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\obj\Debug\BasicConnectionWithMongo.exe
+E:\Work\BasicConnectionWithMongo\BasicConnectionWithMongo\obj\Debug\BasicConnectionWithMongo.pdb

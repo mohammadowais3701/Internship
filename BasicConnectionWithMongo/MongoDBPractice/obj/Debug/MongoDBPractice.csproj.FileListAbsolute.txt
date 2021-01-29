@@ -1,0 +1,12 @@
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\obj\Debug\MongoDBPractice.csprojResolveAssemblyReference.cache
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDBPractice.exe.config
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDBPractice.exe
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDBPractice.pdb
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDB.Bson.dll
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDB.Driver.Core.dll
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDB.Driver.dll
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDB.Driver.GridFS.dll
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\MongoDB.Driver.Legacy.dll
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\bin\Debug\Newtonsoft.Json.dll
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\obj\Debug\MongoDBPractice.exe
+E:\Work\BasicConnectionWithMongo\MongoDBPractice\obj\Debug\MongoDBPractice.pdb
