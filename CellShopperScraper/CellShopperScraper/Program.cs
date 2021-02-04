@@ -35,8 +35,6 @@ namespace CellShopperScraper
         }
 
 
-
-
         static Stream makeWebRequest(string web)
         {
             Stream data;

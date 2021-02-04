@@ -1,0 +1,10 @@
+E:\Work\TicketBooking\TicketBooking\bin\Debug\TicketBooking.exe.config
+E:\Work\TicketBooking\TicketBooking\bin\Debug\TicketBooking.exe
+E:\Work\TicketBooking\TicketBooking\bin\Debug\TicketBooking.pdb
+E:\Work\TicketBooking\TicketBooking\bin\Debug\HtmlAgilityPack.dll
+E:\Work\TicketBooking\TicketBooking\bin\Debug\Newtonsoft.Json.dll
+E:\Work\TicketBooking\TicketBooking\bin\Debug\HtmlAgilityPack.pdb
+E:\Work\TicketBooking\TicketBooking\bin\Debug\HtmlAgilityPack.xml
+E:\Work\TicketBooking\TicketBooking\obj\Debug\TicketBooking.csprojResolveAssemblyReference.cache
+E:\Work\TicketBooking\TicketBooking\obj\Debug\TicketBooking.exe
+E:\Work\TicketBooking\TicketBooking\obj\Debug\TicketBooking.pdb
