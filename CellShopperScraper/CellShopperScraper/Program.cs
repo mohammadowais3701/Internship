@@ -156,11 +156,6 @@ namespace CellShopperScraper
 
             }
 
-
-
-
-
-
         }
 
 

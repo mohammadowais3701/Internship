@@ -12,6 +12,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Web;
 using TicketBooking;
+using System.Threading.Tasks;
 
 namespace TicketBooking
 {
@@ -19,7 +20,7 @@ namespace TicketBooking
     {
 
 
-        private static string getCookiesForFirstPage(string url, string XDistilAjax)/// I need this function
+        public static string getCookiesForFirstPage(string url, string XDistilAjax)/// I need this function
         {
             HttpWebResponse response = null;
 
@@ -64,7 +65,8 @@ namespace TicketBooking
                 request.Headers.Add("X-Distil-Ajax", XDistilAjax);
                 request.ContentType = "text/plain;charset=UTF-8";
                 request.Accept = "*/*";
-
+                WebProxy proxy = new WebProxy("127.0.0.1", 8888);
+                request.Proxy = proxy;
                 request.Headers.Set(HttpRequestHeader.AcceptEncoding, "gzip, deflate, br");
                 request.Headers.Set(HttpRequestHeader.AcceptLanguage, "en-US,en;q=0.5");
 
@@ -110,7 +112,121 @@ namespace TicketBooking
 
             return null;
         }
+        private static String ChecknSolveCaptcha(String url, String htmlContent, Dictionary<String, String> cookies)
+        {
+            String stringToReturn = String.Empty;
+            try
+            {
+                //String URL = ("https://premier.ticketek.com.au/shows/show.aspx?sh=KEITHURB21");
+                String URL = url;
+                String Key2C = "303b9a65e613498eeed1494f3f9a8bdd";
+                String captchaKey = "6Ld38BkUAAAAAPATwit3FXvga1PI6iVTb6zgXw62";
+                String responceFromRequest = String.Empty;
+                String recaptchaToken = String.Empty;
+                String POSTResponce = String.Empty;
+                String StringHtml = String.Empty;
+                String html = String.Empty;
+                String Host = new Uri(URL).Host;
+                HtmlDocument Doc = new HtmlDocument();
 
+                Doc.LoadHtml(htmlContent);
+                html = Doc.DocumentNode.InnerHtml;
+
+                if (html.Contains("iframe") && html != null)
+                {
+                    var a = Doc.DocumentNode.SelectSingleNode("//iframe");
+                    if (a != null)
+                    {
+                        var src = a.Attributes["src"].Value;
+
+                     //   StringHtml = PerformHttpRequest("GET", "http://2captcha.com/in.php?key=" + Key2C + "&method=userrecaptcha&googlekey=" + captchaKey + "&pageurl=" + Host, String.Empty, cookiesContainer, false);
+
+                    }
+                }
+                else if (html.Contains("Incapsula_Resource"))
+                {
+                    var b = Doc.DocumentNode.SelectSingleNode("//script");
+                    if (b != null)
+                    {
+                        var src = b.Attributes["src"].Value;
+
+                        HtmlNode recaptcha_V2_node = Doc.DocumentNode.SelectSingleNode("//div[@class='g-recaptcha']");
+
+                        if (recaptcha_V2_node != null)
+                            captchaKey = recaptcha_V2_node.Attributes["data-sitekey"].Value;
+
+                      //  StringHtml = PerformHttpRequest("GET", "http://2captcha.com/in.php?key=" + Key2C + "&method=userrecaptcha&googlekey=" + captchaKey + "&pageurl=" + Host, String.Empty, cookiesContainer, false);
+
+                    }
+                }
+
+                if (StringHtml.Contains("OK"))
+                {
+                    String requestId = StringHtml.Split('|')[1];
+                    recaptchaToken = PollRequest(Key2C, requestId); // Polling to get RecaptchaToken 
+                    String postdata = String.Concat("g-recaptcha-response=", recaptchaToken);
+                   // stringToReturn = PerformHttpRequest("POST", "/_Incapsula_Resource?SWCGHOEL=v2", postdata, cookies, false);
+                }
+
+                if ((stringToReturn != null && !stringToReturn.Contains("Incapsula incident")) || (!stringToReturn.Contains("_Incapsula_Resource") && (!stringToReturn.Contains("META NAME=\"ROBOTS\""))))
+                {
+                    Console.WriteLine("Resolved");
+                }
+                else
+                {
+                    Console.WriteLine("Captcha not resolved");
+                //    stringToReturn = ChecknSolveCaptcha(url, stringToReturn, cookiesContainer);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return stringToReturn;
+        }
+
+
+
+
+
+
+
+        // *** Pooling Request Method ***//
+
+
+
+
+        private static String PollRequest(string key2c, string requestKey)
+        {
+            String StringHtml = String.Empty;
+            String recaptchaToken = String.Empty;
+
+            try
+            {
+              //  HttpWebResponse webResponce = PerformRequests("http://2captcha.com/in.php?key=" + key2c + "&action=get&id=" + requestKey, null);
+              //  StringHtml = HTMLFromResponse(webResponce);
+
+                do
+                {
+                    Task.Delay(5000).Wait();
+
+                   // webResponce = PerformRequests("http://2captcha.com/res.php?key=" + key2c + "&action=get&id=" + requestKey, null);
+                    //StringHtml = HTMLFromResponse(webResponce);
+
+                    if (StringHtml.Contains("OK"))
+                    {
+                        recaptchaToken = StringHtml.Replace("OK|", "");
+                    }
+                }
+                while (!StringHtml.Contains("OK") && StringHtml.Contains("CAPCHA_NOT_READY"));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message + Environment.NewLine + ex.StackTrace);
+            }
+
+            return recaptchaToken;
+        }
 
     }
 }
