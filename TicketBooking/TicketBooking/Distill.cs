@@ -14,6 +14,7 @@ using System.Web;
 using TicketBooking;
 using System.Threading.Tasks;
 
+
 namespace TicketBooking
 {
     public class Distill
@@ -112,7 +113,8 @@ namespace TicketBooking
 
             return null;
         }
-        private static String ChecknSolveCaptcha(String url, String htmlContent, Dictionary<String, String> cookies)
+    public static String ChecknSolveCaptcha(String url, String type="")
+       
         {
             String stringToReturn = String.Empty;
             try
@@ -120,30 +122,38 @@ namespace TicketBooking
                 //String URL = ("https://premier.ticketek.com.au/shows/show.aspx?sh=KEITHURB21");
                 String URL = url;
                 String Key2C = "303b9a65e613498eeed1494f3f9a8bdd";
-                String captchaKey = "6Ld38BkUAAAAAPATwit3FXvga1PI6iVTb6zgXw62";
+                String captchaKey = "6Lejv2AUAAAAAC2ga_dkzgFadQvGnUbuJW_FgsvC";
                 String responceFromRequest = String.Empty;
                 String recaptchaToken = String.Empty;
                 String POSTResponce = String.Empty;
                 String StringHtml = String.Empty;
                 String html = String.Empty;
                 String Host = new Uri(URL).Host;
-                HtmlDocument Doc = new HtmlDocument();
+                do{
+                    if (type.Equals(""))
+                        StringHtml = Program.getContent("http://2captcha.com/in.php?key=" + Key2C + "&method=userrecaptcha&googlekey=" + captchaKey + "&pageurl=" + "tix.axs.com");
+                    else {
+                        StringHtml = Program.getContent("http://2captcha.com/in.php?key=" + Key2C + "&method=hcaptcha&sitekey=33f96e6a-38cd-421b-bb68-7806e1764460&pageurl=" + "tix.axs.com");
+                    }
+                    /*   HtmlDocument Doc = new HtmlDocument();
 
                 Doc.LoadHtml(htmlContent);
-                html = Doc.DocumentNode.InnerHtml;
+                html = Doc.DocumentNode.InnerHtml;*/
 
-                if (html.Contains("iframe") && html != null)
+                /*if (html.Contains("iframe") && html != null)
                 {
                     var a = Doc.DocumentNode.SelectSingleNode("//iframe");
                     if (a != null)
                     {
                         var src = a.Attributes["src"].Value;
 
-                     //   StringHtml = PerformHttpRequest("GET", "http://2captcha.com/in.php?key=" + Key2C + "&method=userrecaptcha&googlekey=" + captchaKey + "&pageurl=" + Host, String.Empty, cookiesContainer, false);
 
+                     // StringHtml = PerformHttpRequest("GET", "http://2captcha.com/in.php?key=" + Key2C + "&method=userrecaptcha&googlekey=" + captchaKey + "&pageurl=" + Host, String.Empty, cookiesContainer, false);
+
+                        // get(url)
                     }
                 }
-                else if (html.Contains("Incapsula_Resource"))
+              else if (html.Contains("Incapsula_Resource"))
                 {
                     var b = Doc.DocumentNode.SelectSingleNode("//script");
                     if (b != null)
@@ -158,13 +168,14 @@ namespace TicketBooking
                       //  StringHtml = PerformHttpRequest("GET", "http://2captcha.com/in.php?key=" + Key2C + "&method=userrecaptcha&googlekey=" + captchaKey + "&pageurl=" + Host, String.Empty, cookiesContainer, false);
 
                     }
-                }
-
+                }*/
                 if (StringHtml.Contains("OK"))
                 {
                     String requestId = StringHtml.Split('|')[1];
                     recaptchaToken = PollRequest(Key2C, requestId); // Polling to get RecaptchaToken 
-                    String postdata = String.Concat("g-recaptcha-response=", recaptchaToken);
+                  
+                    
+                  //  String postdata = String.Concat("g-recaptcha-response=", recaptchaToken);
                    // stringToReturn = PerformHttpRequest("POST", "/_Incapsula_Resource?SWCGHOEL=v2", postdata, cookies, false);
                 }
 
@@ -177,25 +188,17 @@ namespace TicketBooking
                     Console.WriteLine("Captcha not resolved");
                 //    stringToReturn = ChecknSolveCaptcha(url, stringToReturn, cookiesContainer);
                 }
+                } while(recaptchaToken.Equals("ERROR_CAPTCHA_UNSOLVABLE"));
+                return recaptchaToken;
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            return stringToReturn;
+            
+           return stringToReturn;
         }
-
-
-
-
-
-
-
         // *** Pooling Request Method ***//
-
-
-
-
         private static String PollRequest(string key2c, string requestKey)
         {
             String StringHtml = String.Empty;
@@ -205,11 +208,12 @@ namespace TicketBooking
             {
               //  HttpWebResponse webResponce = PerformRequests("http://2captcha.com/in.php?key=" + key2c + "&action=get&id=" + requestKey, null);
               //  StringHtml = HTMLFromResponse(webResponce);
-
+                int count = 0;
                 do
                 {
+                    
                     Task.Delay(5000).Wait();
-
+                    StringHtml = Program.getContent("http://2captcha.com/res.php?key=" + key2c + "&action=get&id=" + requestKey);
                    // webResponce = PerformRequests("http://2captcha.com/res.php?key=" + key2c + "&action=get&id=" + requestKey, null);
                     //StringHtml = HTMLFromResponse(webResponce);
 
@@ -217,8 +221,13 @@ namespace TicketBooking
                     {
                         recaptchaToken = StringHtml.Replace("OK|", "");
                     }
+                    Console.WriteLine(StringHtml);
+                    count++;
+                    if (StringHtml.Contains("ERROR_CAPTCHA_UNSOLVABLE")||count>=15) {
+                        return "ERROR_CAPTCHA_UNSOLVABLE";
+                    }
                 }
-                while (!StringHtml.Contains("OK") && StringHtml.Contains("CAPCHA_NOT_READY"));
+                while (!StringHtml.Contains("OK") && ( StringHtml.Contains("CAPCHA_NOT_READY")));
             }
             catch (Exception ex)
             {
@@ -227,6 +236,24 @@ namespace TicketBooking
 
             return recaptchaToken;
         }
+    /*    public static string hcaptcha() {
+            TwoCaptcha.TwoCaptcha solver = new TwoCaptcha.TwoCaptcha("303b9a65e613498eeed1494f3f9a8bdd");
+
+            HCaptcha captcha = new HCaptcha();
+            captcha.SetSiteKey("33f96e6a-38cd-421b-bb68-7806e1764460");
+            captcha.SetUrl("https://2captcha.com/demo/hcaptcha");
+
+            try
+            {
+                solver.Solve(captcha).Wait();
+                Console.WriteLine("Captcha solved: " + captcha.Code);
+            }
+            catch (AggregateException e)
+            {
+                Console.WriteLine("Error occurred: " + e.InnerExceptions.First().Message);
+            }
+            return "";
+        }*/
 
     }
 }

@@ -31,13 +31,8 @@ namespace PostFormData_Day8_
                   var stream = rq.GetRequestStream();
                   stream.Write(data, 0, formdata.Length);
                   Console.WriteLine(rq.Headers);
-             
-                
-                var res = (HttpWebResponse)rq.GetResponse();
-               
-                
-              
 
+                var res = (HttpWebResponse)rq.GetResponse();
                 var respstr = new StreamReader(res.GetResponseStream()).ReadToEnd();
                Console.WriteLine(respstr);
             }
