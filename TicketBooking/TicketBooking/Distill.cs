@@ -212,7 +212,7 @@ namespace TicketBooking
                 do
                 {
                     
-                    Task.Delay(5000).Wait();
+                    Task.Delay(15000).Wait();
                     StringHtml = Program.getContent("http://2captcha.com/res.php?key=" + key2c + "&action=get&id=" + requestKey);
                    // webResponce = PerformRequests("http://2captcha.com/res.php?key=" + key2c + "&action=get&id=" + requestKey, null);
                     //StringHtml = HTMLFromResponse(webResponce);
