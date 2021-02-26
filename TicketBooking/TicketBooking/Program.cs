@@ -8,14 +8,20 @@ using System.Net;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using System.Diagnostics;
+using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+
 
 
 namespace TicketBooking
 {
     class Program
     {
+
         static Dictionary<string, string> dic;
+      static String jsonString = String.Empty;
+      static String Token = String.Empty;
+      static string url = "https://tix.axs.com/2L07CQAAAACSWLmzMgAAAADl%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fBXRoZW1lAP%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f";
         static void Main(string[] args)
         {
             start();
@@ -26,7 +32,7 @@ namespace TicketBooking
         {
            try{
             dic = new Dictionary<string, string>();
-            string str = makeWebRequest("https://tix.axs.com/M8rFNQAAAABVAbtHAwAAAABb%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fEEJvd2VyeUJPUy1Sb3lhbGUA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d");
+            string str = makeWebRequest(url);
             string cookie="";
             string queueItUrl = "";
             if (str.Contains("hcaptcha"))
@@ -40,7 +46,7 @@ namespace TicketBooking
                 Match m = reg.Match(str);
                 string captch_tk = Convert.ToString(m).Replace("\"", "").Split('=')[1];
                 cookie = updateCookies();
-                string Token = Distill.ChecknSolveCaptcha("https://tix.axs.com", "hcaptcha");
+                Token  = Distill.ChecknSolveCaptcha("https://tix.axs.com", "hcaptcha");
                 reg = new Regex("name=\"r\".*value=\".*?\"");
                 m = reg.Match(str);
                 string r = Convert.ToString(m);
@@ -83,7 +89,7 @@ namespace TicketBooking
                 cookie= makeWebRequest("https://tix.axs.com"+action, "", cookie , "", "", "POST", "", "application/x-www-form-urlencoded", postData);
                 cookie = updateCookies(cookie);
 
-                str = makeWebRequest("https://tix.axs.com/M8rFNQAAAABVAbtHAwAAAABb%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fEEJvd2VyeUJPUy1Sb3lhbGUA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d","",cookie);
+                str = makeWebRequest(url,"",cookie);
             }
             string cookies =str.Split('|')[1];
             cookies = garbageRemoving(cookies );
@@ -98,14 +104,15 @@ namespace TicketBooking
                 cookies = Distill.getCookiesForFirstPage("https://tix.axs.com" + obj.PID, obj.ajaxHeader);
                 cookies = garbageRemoving(cookies);
                 Console.WriteLine(cookies);
-                str = makeWebRequest("https://tix.axs.com/M8rFNQAAAABVAbtHAwAAAABb%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fEEJvd2VyeUJPUy1Sb3lhbGUA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d", "", cookies);
+                str = makeWebRequest(url, "", cookies);
                 Console.WriteLine(str);
-                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/pre-flow/v2/M8rFNQAAAABVAbtHAwAAAABb%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FEEJvd2VyeUJPUy1Sb3lhbGUA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8%3D/phase?reservation=false", "", cookies);
+                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/pre-flow/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F/phase?reservation=false", "", cookies);
             }
             else
             {
                 Regex reg = new Regex("cf_clearance=.*?;");
                 Match m = reg.Match(cookies);
+                string cooki = Convert.ToString(m).Replace(";","");
                 string version = str;
                 str = getContent("https://tix.axs.com/js/bundle_" + str,cookies);
                 string  patt = "recaptchaV3SiteKey:.*?,";
@@ -113,52 +120,87 @@ namespace TicketBooking
                 m = reg.Match(str);
                 string key = Convert.ToString(m).Split(':')[1].Replace("\"", "");
                 key = key.Replace(",", "");
-                
-
                 str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/metadata/operations/all", "", cookies, "");
                 cookies = str.Split('|')[1];
                 cookies = garbageRemoving(cookies + ";");
                 dic.Clear();
+            
                 cookies = updateCookies(cookies);
-                cookies += "AMCV_B7B972315A1341150A495EFE%40AdobeOrg=870038026%7CMCIDTS%7C18682%7CMCMID%7C91546822546792475073344016533577201971%7CMCOPTOUT-1614096554s%7CNONE%7CvVersion%7C5.0.0;AMCVS_B7B972315A1341150A495EFE%40AdobeOrg=1;rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2BhG5xyPRq4RqmwIDfkbVdJdL5qntJ8O05bvAqxD7dkxMWvKGLcliUCVFNST6kUxB96v%2FcWFkfjXA%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2B54fSUwbGS7jxAZLnKyYArrGSs4kR5PlI%3D; rl_group_id=RudderEncrypt%3AU2FsdGVkX1%2BQy2RTbnoOJqu%2FdYDBeinuAbySF3r2sNg%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2FAHlVSN30sfukiv2Q2VwjK%2BxHKp%2BgpjJE%3D; rl_group_trait=RudderEncrypt%3AU2FsdGVkX1%2FAT8TJaWSan4vlRFjZiZ3Cq4MbiUcc11w%3D; gpv_pn=tix.axs.com%3Acheckout%3Acaptcha; gpv_c7=tix.axs.com%3A; s_gnr7=1614089354835-New; s_cc=true;";
+                cookies = updateCookies(cooki+";");
+                cookies += "AMCV_B7B972315A1341150A495EFE%40AdobeOrg=870038026%7CMCIDTS%7C18682%7CMCMID%7C91546822546792475073344016533577201971%7CMCOPTOUT-1614096554s%7CNONE%7CvVersion%7C5.0.0;AMCVS_B7B972315A1341150A495EFE%40AdobeOrg=1; gpv_pn=tix.axs.com%3Acheckout%3Acaptcha; gpv_c7=tix.axs.com%3A; s_gnr7=1614089354835-New; s_cc=true;";
                 cookies = updateCookies(cookies);
-                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/pre-flow/v2/M8rFNQAAAABVAbtHAwAAAABb%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FEEJvd2VyeUJPUy1Sb3lhbGUA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8%3D/phase?reservation=false", "", cookies, "needed");
+                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/pre-flow/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F/phase?reservation=false", "", cookies, "needed");
                 var webencode = System.Net.WebUtility.UrlEncode(str.Split('|')[0]);
                 Console.WriteLine(webencode);
                 cookies = garbageRemoving(str.Split('|')[1]);
                 String FanSightTab = str.Split('|')[2];
                 cookies = cookies.Replace("|", "");
-               
-              
-                cookies = garbageRemoving(cookies.Split('|')[0]);
+                
+                //cookies = garbageRemoving(cookies.Split('|')[0]);
                 cookies = updateCookies(cookies);
                 string temp = cookies;
-                cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/onsale/v2/M8rFNQAAAABVAbtHAwAAAABb%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FEEJvd2VyeUJPUy1Sb3lhbGUA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8%3D?sessionID=", "", cookies,FanSightTab, webencode);
+                //str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/socket.io/?transport=polling", "", cookies, FanSightTab);
+                //cookies = garbageRemoving(str.Split('|')[1]);
+            //    temp = cookies.Replace("|", "");
+                //cookies = updateCookies(cookies);
+                string Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
+                string postData = "";
+                cookies = temp;
+                cookies = updateCookies(cookies);
+                postData = "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
+                temp = cookies;
+                cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", cookies, FanSightTab, "", "POST", Token, "application/json", postData);
+             //   do
+               // {
+
+                if (cookies.Split('|')[1].Equals("needToSolveRecaptcha"))
+                {
+                    postData = "{\"Token\":\"" + Token + "\"}";
+                    cookies = garbageRemoving(cookies.Split('|')[0]);
+                  //  temp = cookies.Replace("|", "");
+                    cookies = updateCookies(cookies.Split('|')[0]);
+                    cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/recaptcha-verification/v1/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", cookies, FanSightTab, "", "POST", Token, "application/json", postData);
+                } //    Token= Distill.ChecknSolveCaptcha("https://tix.axs.com");
+               // } while (cookies.Equals("needToSolveRecaptcha"));
+                cookies = garbageRemoving(cookies.Split('|')[0]);
+                cookies= cookies.Replace("|", "");
+                cookies = updateCookies(cookies);
+                cookies = cookies.Replace("|", "");
+               
+                cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/onsale/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F?sessionID=", "", cookies, FanSightTab, webencode);
 
              
                 cookies = garbageRemoving(cookies.Split('|')[0]);
                 temp = cookies;
-                cookies = updateCookies(cookies);
+                cookies = updateCookies(cookies.Replace(";",""));
               //  cookies = garbageRemoving(cookies.Split('|')[0]);
                 //temp = cookies;
                 temp = cookies;
-                string Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
-                
+              //  string Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
 
+             /*   string postData = "";
                 do
                 {
                     cookies = temp;
-                    string postData = "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
-                    cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/M8rFNQAAAABVAbtHAwAAAABb%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FEEJvd2VyeUJPUy1Sb3lhbGUA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8%3D", "", cookies,FanSightTab, "", "POST", Token,"application/json",postData);
-                    if (cookies.Equals("needToSolveRecaptcha"))
+                   postData= "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
+                   cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", cookies, FanSightTab, "", "POST", Token, "application/json", postData);
+                   if (cookies.Equals("needToSolveRecaptcha"))
                         Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
-                } while (cookies.Equals("needToSolveRecaptcha"));
+                } while (cookies.Equals("needToSolveRecaptcha"));*/
                 //FanSightTab = cookies.Split('|')[1].Split(':')[1];
-                cookies = garbageRemoving(cookies.Split('|')[0]);
+            /*    cookies = garbageRemoving(cookies.Split('|')[0]);
                 temp = cookies.Replace("|", "");
                 cookies = updateCookies(cookies);
-                cookies = cookies.Replace("|", "");
-                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/inventory/v2/M8rFNQAAAABVAbtHAwAAAABb%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FEEJvd2VyeUJPUy1Sb3lhbGUA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8%3D/price?locale=en-US&getSections=true&grouped=true&includeSoldOuts=false&includeDynamicPrice=true", "", temp, FanSightTab);
+                cookies = cookies.Replace("|", "");*/
+                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/inventory/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F/price?locale=en-US&getSections=true&grouped=true&includeSoldOuts=false&includeDynamicPrice=true", "", temp, FanSightTab);
+                cookies = garbageRemoving(str.Split('|')[0]);
+                cookies = updateCookies(cookies);
+                JObject obj = getJson(jsonString);
+             //   str = "{\"offerId\":\"" + offerId + "\",\"offerGroupID\":\"" + offerGroupID + "\",\"productID\":\"" + productID + "\",\"qty\":\"" + qty + "\",\"priceTypeID\":\"" + priceTypeID + "\",\"section\":\"" + section + "\"}";
+             
+                postData = "{\"selections\":[{\"offerID\":\"" + Convert.ToString(obj["offerId"]) + "\",\"offerGroupID\":\""+Convert.ToString(obj["offerGroupID"])+"\",\"productID\":\""+Convert.ToString(obj["productID"])+"\",\"searches\":[{\"quantity\":"+Convert.ToInt32(obj["qty"])+",\"sectionID\":null,\"priceTypeID\":\""+Convert.ToString(obj["priceTypeID"])+"\",\"req\":[-1,-1]}],\"optionalFeeId\":null}],\"nextPage\":\"shop__delivery-method-page\",\"overwrite\":true}";
+               cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/cart/v2/add-items?onsaleID=2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F&locale=en-US&checkPriceChange=true", "", cookies, FanSightTab, "", "POST", "", "application/json", postData);
+
             }
 
         }
@@ -255,6 +297,7 @@ namespace TicketBooking
                 doc.LoadHtml(str);
                 try
                 {
+                    jsonString = str;
                     if (str.Contains("302 Found")) {
 
                         cookies = myres.Headers["Set-Cookie"];
@@ -267,7 +310,7 @@ namespace TicketBooking
 
                     if (str.Contains("needToSolveRecaptcha"))
                     {
-                        return "needToSolveRecaptcha";
+                        return myres.Headers["Set-Cookie"]+ "|needToSolveRecaptcha";
                     }
                     // Console.WriteLine(reader.ReadToEnd());
                     string patt = "\"\\/twrlniirtohjvlki.js\\?PID.*?\"";
@@ -469,6 +512,62 @@ namespace TicketBooking
             return cookies;
 
         }
+
+    static JObject getJson(string str){
+        JObject obj = JObject.Parse(str);
+
+
+        var offerPricesObj = obj["offerPrices"].FirstOrDefault();
+        string offerId = String.Empty;
+        string offerGroupID = String.Empty;
+
+        if (offerPricesObj != null)
+        {
+            offerId = Convert.ToString(offerPricesObj["offerID"]);
+            offerGroupID = Convert.ToString(offerPricesObj["offerGroupID"]);
+            //   qty=Convert.ToInt32(offerPricesObj["order"]);
+            var zonePricesobj = offerPricesObj["zonePrices"].FirstOrDefault();
+            string productID = String.Empty;
+
+            if (zonePricesobj != null)
+            {
+                productID = Convert.ToString(zonePricesobj["productID"]);
+                var priceLevelsObj = zonePricesobj["priceLevels"].FirstOrDefault();
+                int qty;
+                if (priceLevelsObj != null)
+                {
+                    qty = Convert.ToInt32(priceLevelsObj["order"]);
+                    var priceObj = priceLevelsObj["prices"].FirstOrDefault();
+                    string priceTypeID = String.Empty;
+                    if (priceObj != null)
+                    {
+                        priceTypeID = Convert.ToString(priceObj["priceTypeID"]);
+
+                    }
+                    var availabilityObj = priceLevelsObj["availability"].FirstOrDefault();
+                    String section = String.Empty;
+                    if (availabilityObj != null)
+                    {
+                        try
+                        {
+                            section = Convert.ToString(availabilityObj.Children().ToList()[1]);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                        str = "{\"offerId\":\"" + offerId + "\",\"offerGroupID\":\"" + offerGroupID + "\",\"productID\":\"" + productID + "\",\"qty\":\"" + qty + "\",\"priceTypeID\":\"" + priceTypeID + "\",\"section\":\"" + section + "\"}";
+                        obj = JObject.Parse(str);
+                    }
+                    obj = JObject.Parse(str);
+                    
+                }
+            }
+
+        }
+        return obj;
+    
+    }
     }
     class getHeaders
     {
@@ -476,4 +575,5 @@ namespace TicketBooking
         public string PID { get; set; }
         public string ajaxHeader { get; set; }
     }
+
 }

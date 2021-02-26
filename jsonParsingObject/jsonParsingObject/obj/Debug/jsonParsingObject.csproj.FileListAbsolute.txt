@@ -1,0 +1,7 @@
+E:\Work\jsonParsingObject\jsonParsingObject\bin\Debug\jsonParsingObject.exe.config
+E:\Work\jsonParsingObject\jsonParsingObject\obj\Debug\jsonParsingObject.csprojResolveAssemblyReference.cache
+E:\Work\jsonParsingObject\jsonParsingObject\bin\Debug\jsonParsingObject.exe
+E:\Work\jsonParsingObject\jsonParsingObject\bin\Debug\jsonParsingObject.pdb
+E:\Work\jsonParsingObject\jsonParsingObject\bin\Debug\Newtonsoft.Json.dll
+E:\Work\jsonParsingObject\jsonParsingObject\obj\Debug\jsonParsingObject.exe
+E:\Work\jsonParsingObject\jsonParsingObject\obj\Debug\jsonParsingObject.pdb
