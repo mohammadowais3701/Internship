@@ -1,0 +1,23 @@
+E:\Projects\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Projects\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Projects\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.XML
+E:\Projects\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.dll
+E:\Projects\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.pdb
+E:\Projects\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS - Copy\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS - Copy\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.XML
+F:\Projects\Automatick-AXS - Copy\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS - Copy\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.XML
+F:\Projects\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Automatick-AXS\HtmlAgilityPack\bin\x86\Debug\HtmlAgilityPack.XML
+E:\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.dll
+E:\Automatick-AXS\HtmlAgilityPack\obj\x86\Debug\HtmlAgilityPack.pdb

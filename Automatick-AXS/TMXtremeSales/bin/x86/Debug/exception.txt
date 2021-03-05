@@ -1,0 +1,8 @@
+
+2/28/2019 4:25:52 PM && processTixAutoBuyPage()=> Thread was being aborted. -    at Automatick.Core.AXSSearch.processTixAutoBuyPage()
+2/28/2019 4:25:52 PM && WorkerThread()=> Thread was being aborted. -    at Automatick.Core.AXSSearch.processTixAutoBuyPage()
+   at Automatick.Core.AXSSearch.workerThread()
+3/1/2019 1:10:21 PM && WorkerThread()=> Thread was being aborted. -    at Automatick.Core.AXSSearch.processTixFirstPage() in f:\Projects\Automatick-AXS\AutomatickCore-AXS\Core\AXSSearch.cs:line 3332
+   at Automatick.Core.AXSSearch.workerThread() in f:\Projects\Automatick-AXS\AutomatickCore-AXS\Core\AXSSearch.cs:line 1000
+3/1/2019 1:12:16 PM && WorkerThread()=> Thread was being aborted. -    at Automatick.Core.AXSSearch.processTixFirstPage() in f:\Projects\Automatick-AXS\AutomatickCore-AXS\Core\AXSSearch.cs:line 3332
+   at Automatick.Core.AXSSearch.workerThread() in f:\Projects\Automatick-AXS\AutomatickCore-AXS\Core\AXSSearch.cs:line 1000

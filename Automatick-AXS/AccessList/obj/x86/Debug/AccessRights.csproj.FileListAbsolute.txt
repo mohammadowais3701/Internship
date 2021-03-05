@@ -1,0 +1,19 @@
+E:\Projects\Automatick-AXS\AccessList\bin\x86\Debug\AccessRights.dll
+E:\Projects\Automatick-AXS\AccessList\bin\x86\Debug\AccessRights.pdb
+E:\Projects\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.dll
+E:\Projects\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.pdb
+E:\Projects\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\AccessList\bin\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS - Copy\AccessList\bin\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS - Copy\AccessList\obj\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS - Copy\AccessList\obj\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS\AccessList\bin\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS\AccessList\bin\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.pdb
+E:\Automatick-AXS\AccessList\bin\x86\Debug\AccessRights.dll
+E:\Automatick-AXS\AccessList\bin\x86\Debug\AccessRights.pdb
+E:\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.dll
+E:\Automatick-AXS\AccessList\obj\x86\Debug\AccessRights.pdb

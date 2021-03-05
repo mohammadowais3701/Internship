@@ -1,0 +1,14 @@
+E:\Projects\Automatick-AXS\AutomatickLogging\bin\x86\Debug\AutomatickLogging.dll
+E:\Projects\Automatick-AXS\AutomatickLogging\bin\x86\Debug\AutomatickLogging.pdb
+E:\Projects\Automatick-AXS\AutomatickLogging\obj\x86\Debug\AutomatickLogging.dll
+E:\Projects\Automatick-AXS\AutomatickLogging\obj\x86\Debug\AutomatickLogging.pdb
+E:\Projects\Automatick-AXS\AutomatickLogging\obj\x86\Debug\AutomatickLogging.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\AutomatickLogging\bin\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickLogging\bin\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickLogging\obj\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickLogging\obj\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS\AutomatickLogging\bin\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS\AutomatickLogging\bin\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS\AutomatickLogging\obj\x86\Debug\AutomatickLogging.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\AutomatickLogging\obj\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS\AutomatickLogging\obj\x86\Debug\AutomatickLogging.pdb

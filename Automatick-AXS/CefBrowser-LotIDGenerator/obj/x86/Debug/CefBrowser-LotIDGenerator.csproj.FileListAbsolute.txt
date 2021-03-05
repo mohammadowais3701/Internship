@@ -1,0 +1,84 @@
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.exe.config
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.exe
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.pdb
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotBrowser.exe
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotGenerator-Core.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Geckofx-Core.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.WinForms.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Server-Automation-Core.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Geckofx-Winforms.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.Core.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\AWSSDK.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\MongoDB.Bson.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\MongoDB.Driver.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Ionic.Zip.dll
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotBrowser.pdb
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotGenerator-Core.pdb
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.xml
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.WinForms.xml
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.Core.xml
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser_LotIDGenerator.LotController.resources
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser_LotIDGenerator.Properties.Resources.resources
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.csproj.GenerateResource.Cache
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.exe
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.pdb
+E:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.exe.config
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.exe
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.pdb
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotBrowser.exe
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Geckofx-Core.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.WinForms.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Geckofx-Winforms.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.Core.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotBrowser.pdb
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.xml
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.WinForms.xml
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.Core.xml
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser_LotIDGenerator.LotController.resources
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser_LotIDGenerator.Properties.Resources.resources
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.exe
+F:\Projects\Automatick-AXS\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.pdb
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.exe.config
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.exe
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefBrowser-LotIDGenerator.pdb
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotBrowser.exe
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\Geckofx-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.WinForms.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\Geckofx-Winforms.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.Core.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotBrowser.pdb
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.xml
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.WinForms.xml
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\bin\x86\Debug\CefSharp.Core.xml
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser_LotIDGenerator.LotController.resources
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser_LotIDGenerator.Properties.Resources.resources
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.exe
+F:\Projects\Automatick-AXS - Copy\CefBrowser-LotIDGenerator\obj\x86\Debug\CefBrowser-LotIDGenerator.pdb

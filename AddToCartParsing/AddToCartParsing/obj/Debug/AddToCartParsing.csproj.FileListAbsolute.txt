@@ -1,0 +1,7 @@
+E:\Work\AddToCartParsing\AddToCartParsing\bin\Debug\AddToCartParsing.exe.config
+E:\Work\AddToCartParsing\AddToCartParsing\bin\Debug\AddToCartParsing.exe
+E:\Work\AddToCartParsing\AddToCartParsing\bin\Debug\AddToCartParsing.pdb
+E:\Work\AddToCartParsing\AddToCartParsing\bin\Debug\Newtonsoft.Json.dll
+E:\Work\AddToCartParsing\AddToCartParsing\obj\Debug\AddToCartParsing.csprojResolveAssemblyReference.cache
+E:\Work\AddToCartParsing\AddToCartParsing\obj\Debug\AddToCartParsing.exe
+E:\Work\AddToCartParsing\AddToCartParsing\obj\Debug\AddToCartParsing.pdb

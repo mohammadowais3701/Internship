@@ -1,0 +1,40 @@
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.exe.config
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.exe
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.pdb
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\BCMakeCert.dll
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\CertMaker.dll
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore4.dll
+E:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.exe
+E:\Projects\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.pdb
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.exe.config
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.exe
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.pdb
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\BCMakeCert.dll
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\CertMaker.dll
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore4.dll
+F:\Projects\Automatick-AXS\FiddlerCore\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.exe
+F:\Projects\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.pdb
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\FiddlerCore.exe.config
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\FiddlerCore.exe
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\FiddlerCore.pdb
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\BCMakeCert.dll
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\CertMaker.dll
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\FiddlerCore4.dll
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\obj\x86\Debug\FiddlerCore.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\obj\x86\Debug\FiddlerCore.exe
+F:\Projects\Automatick-AXS - Copy\FiddlerCore\obj\x86\Debug\FiddlerCore.pdb
+F:\Projects\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.exe.config
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.exe
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore.pdb
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\BCMakeCert.dll
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\CertMaker.dll
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\FiddlerCore4.dll
+E:\Automatick-AXS\FiddlerCore\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.exe
+E:\Automatick-AXS\FiddlerCore\obj\x86\Debug\FiddlerCore.pdb

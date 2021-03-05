@@ -1,0 +1,135 @@
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickCore-AXS.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickCore-AXS.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AccessRights.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickLogging.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Input.2.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\CapsiumSharedMessages.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\CaptchaFactory.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\DecaptcherLib.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\DriveInfoEx.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SAPipeLibrary.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SAPushClientLibrary.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SASharedMessages.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SharedMessages.Auth.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SharedMessages.Star.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\StarClient.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TCPClient.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TokenUtilityLibrary.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TraceUtils.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AccessRights.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickLogging.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\CaptchaFactory.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.xml
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TokenUtilityLibrary.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TCPClient.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Input.2.xml
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SharedMessages.Auth.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SharedMessages.Star.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\StarClient.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TraceUtils.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequest.resources
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequestPPPM.resources
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDate.resources
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectAccount.resources
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDeliveryOption.resources
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csproj.GenerateResource.Cache
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll.licenses
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.pdb
+E:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmCode.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Input.2.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\CapsiumSharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\CaptchaFactory.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\DecaptcherLib.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\DriveInfoEx.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\GeneralBucket.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\SAPipeLibrary.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\SAPushClientLibrary.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\TokenUtilityLibrary.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\TraceUtils.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Input.2.xml
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\bin\x86\Debug\TraceUtils.pdb
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequest.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequestPPPM.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmCode.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDate.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectAccount.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDeliveryOption.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\Automatick.Properties.Resources.resources
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll.licenses
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS - Copy\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Input.2.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\CapsiumSharedMessages.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\CaptchaFactory.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\DecaptcherLib.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\DriveInfoEx.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\GeneralBucket.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SAPipeLibrary.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SAPushClientLibrary.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TraceUtils.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Input.2.xml
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\bin\x86\Debug\TraceUtils.pdb
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequest.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequestPPPM.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmCode.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDate.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectAccount.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDeliveryOption.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.Properties.Resources.resources
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll.licenses
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.pdb
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequest.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\LicenseAPI.frmRequestPPPM.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmCode.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDate.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectAccount.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.frmSelectDeliveryOption.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.csproj.GenerateResource.Cache
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll.licenses
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.dll
+E:\Automatick-AXS\AutomatickCore-AXS\obj\x86\Debug\AutomatickCore-AXS.pdb

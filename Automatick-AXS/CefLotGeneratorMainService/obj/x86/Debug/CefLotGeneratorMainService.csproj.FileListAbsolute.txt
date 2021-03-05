@@ -1,0 +1,48 @@
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.exe.config
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.exe
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.pdb
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGenerator-Core.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\Server-Automation-Core.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\AWSSDK.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\MongoDB.Bson.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\MongoDB.Driver.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\Ionic.Zip.dll
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGenerator-Core.pdb
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.exe
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.pdb
+E:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.exe.config
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.exe
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.pdb
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\bin\x86\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.exe
+F:\Projects\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.pdb
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.exe.config
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.exe
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\CefLotGeneratorMainService.pdb
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\bin\x86\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.exe
+F:\Projects\Automatick-AXS - Copy\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.pdb
+E:\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.exe
+E:\Automatick-AXS\CefLotGeneratorMainService\obj\x86\Debug\CefLotGeneratorMainService.pdb

@@ -1,0 +1,16 @@
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\TMXtremeSales.exe
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\C1.Win.C1Gauge.2.dll
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\C1.Win.C1Input.2.dll
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\ResolveAssemblyReference.cache
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.frmMain.resources
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.Properties.Resources.resources
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.dashBoardGuage.resources
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.csproj.GenerateResource.Cache
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\TMXtremeSales.pdb
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\C1.Win.C1Ribbon.2.dll
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\C1.Win.C1Input.2.xml
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\C1.Win.C1Ribbon.2.xml
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\bin\Debug\C1.Win.C1Gauge.2.xml
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.exe
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.pdb
+D:\ADEEL\Adeel\MyProjects\Working\TMXtremeSales\TMXtremeSales\TMXtremeSales\obj\Debug\TMXtremeSales.exe.licenses

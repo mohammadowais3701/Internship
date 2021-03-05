@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A755B7A0-75A7-4243-BE83-719632696191}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Automatick</RootNamespace>
+    <AssemblyName>AutomatickAXS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Automatick.Program</StartupObject>
+    <ApplicationIcon>Automatic48.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.7.3.0, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Awesomium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Awesomium.Windows.Controls, Version=1.7.3.0, Culture=neutral, PublicKeyToken=7a34e179b8b61c39, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Awesomium.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Awesomium.Windows.Forms, Version=1.7.3.0, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Awesomium.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20121.19514, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Command.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Gauge.2, Version=2.0.20121.71, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Gauge.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20121.33274, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1InputPanel.2, Version=2.0.20121.140, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1InputPanel.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20121.368, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Win7Pack.2, Version=2.0.20121.16, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Win7Pack.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DriveInfoEx">
+      <HintPath>..\DriveInfoEx.dll</HintPath>
+    </Reference>
+    <Reference Include="GeneralBucket">
+      <HintPath>..\Binaries\GeneralBucket.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPipeLibrary">
+      <HintPath>..\Binaries\SAPipeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPushClientLibrary">
+      <HintPath>..\Binaries\SAPushClientLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SASharedMessages">
+      <HintPath>..\Binaries\SASharedMessages.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TraceUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\TraceUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Settings.cs" />
+    <Compile Include="UI\frmAutoCaptchaService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmAutoCaptchaService.Designer.cs">
+      <DependentUpon>frmAutoCaptchaService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCaptcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCaptcha.Designer.cs">
+      <DependentUpon>frmCaptcha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCaptchaBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCaptchaBrowser.Designer.cs">
+      <DependentUpon>frmCaptchaBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmFindTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmFindTicket.designer.cs">
+      <DependentUpon>frmFindTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmProxies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmAccount.Designer.cs">
+      <DependentUpon>frmAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmDeliveryOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmDeliveryOption.Designer.cs">
+      <DependentUpon>frmDeliveryOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmGroup.Designer.cs">
+      <DependentUpon>frmGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmEmail.Designer.cs">
+      <DependentUpon>frmEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmReport.designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTicket.designer.cs">
+      <DependentUpon>frmTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ucRecentItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ucRecentItem.designer.cs">
+      <DependentUpon>ucRecentItem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="UI\frmAutoCaptchaService.resx">
+      <DependentUpon>frmAutoCaptchaService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCaptcha.resx">
+      <DependentUpon>frmCaptcha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCaptchaBrowser.resx">
+      <DependentUpon>frmCaptchaBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmFindTicket.resx">
+      <DependentUpon>frmFindTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmProxies.resx">
+      <DependentUpon>frmProxies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmAccount.resx">
+      <DependentUpon>frmAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmDeliveryOption.resx">
+      <DependentUpon>frmDeliveryOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmGroup.resx">
+      <DependentUpon>frmGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmEmail.resx">
+      <DependentUpon>frmEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTicket.resx">
+      <DependentUpon>frmTicket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ucRecentItem.resx">
+      <DependentUpon>ucRecentItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\Automatick.Core.AXSSearch.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.Email.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.ITicketAccount.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.ITicketDeliveryOption.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.ITicketFoundCriteria.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.TicketGroup.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.AXSDeliveryOption.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.AXSFoundCriteria.datasource" />
+    <None Include="Properties\DataSources\Automatick.Core.AXSTicket.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccessList\AccessRights.csproj">
+      <Project>{11DC3F2B-6112-4FE3-B786-0DC13E764B4F}</Project>
+      <Name>AccessRights</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomatickCore-AXS\AutomatickCore-AXS.csproj">
+      <Project>{A74115C8-8F65-4EF1-978A-B120DBAAA166}</Project>
+      <Name>AutomatickCore-AXS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomatickLogging\AutomatickLogging.csproj">
+      <Project>{60c41d4b-8de7-41ac-b6ba-b861a2e760ec}</Project>
+      <Name>AutomatickLogging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HtmlAgilityPack\HtmlAgilityPack.csproj">
+      <Project>{193BB801-054F-4729-9D5D-FCE1E32594BF}</Project>
+      <Name>HtmlAgilityPack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TCPClient\TCPClient.csproj">
+      <Project>{0fa89e6d-55c1-422b-addc-25b575928f80}</Project>
+      <Name>TCPClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Automatick.Core.Captcha.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Automatic48.ico" />
+    <Content Include="Bucket.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\1324639282_Edit-Male-User.png" />
+    <Content Include="Resources\1324639284_Edit-Male-User-16.png" />
+    <Content Include="Resources\1324639284_Edit-Male-User.png" />
+    <Content Include="Resources\1324639284_Edit-Male-User24.png" />
+    <Content Include="Resources\1324639344_network.png" />
+    <Content Include="Resources\1324639344_network16.png" />
+    <Content Include="Resources\1324649434_Flag1_Green.png" />
+    <Content Include="Resources\1324649434_Flag1_Green16.png" />
+    <Content Include="Resources\1324649434_Flag1_Green24.png" />
+    <Content Include="Resources\1333455860_email_open.png" />
+    <Content Include="Resources\1333455860_email_open16.png" />
+    <Content Include="Resources\1333455860_email_open24.png" />
+    <Content Include="Resources\1341900838_services.png" />
+    <Content Include="Resources\1341903520_Orange-Sale.png" />
+    <Content Include="Resources\1341903522_Orange-Sale.ico" />
+    <Content Include="Resources\1341905357_history.png" />
+    <Content Include="Resources\1341905376_gnome-mime-application-vnd.lotus-1-2-3.png" />
+    <Content Include="Resources\1341905376_gnome-mime-application-vnd.lotus-1-2-31.png" />
+    <Content Include="Resources\1341905378_gnome-mime-application-vnd.lotus-1-2-3.png" />
+    <Content Include="Resources\1347971328_save.png" />
+    <Content Include="Resources\1347971328_save16.png" />
+    <Content Include="Resources\1347971328_save32.png" />
+    <Content Include="Resources\1347981129_stats48.png" />
+    <Content Include="Resources\1347983536_arrow_up_right_16.png" />
+    <Content Include="Resources\1347983536_arrow_up_right_48.png" />
+    <Content Include="Resources\1348034999_continue.png" />
+    <Content Include="Resources\1348035001_stop.png" />
+    <Content Include="Resources\1350465055_box-16.png" />
+    <Content Include="Resources\1350465055_box.png" />
+    <Content Include="Resources\1350465055_box24.png" />
+    <Content Include="Resources\1350471720_category.png" />
+    <Content Include="Resources\1354172637_navigate-up.png" />
+    <Content Include="Resources\1354172644_navigate-down.png" />
+    <Content Include="Resources\1354172665_navigate-up.png" />
+    <Content Include="Resources\1354172669_navigate-down.png" />
+    <Content Include="Resources\Automatic16.png" />
+    <Content Include="Resources\Automatic32.ico" />
+    <Content Include="Resources\Automatic32.png" />
+    <Content Include="Resources\Automatic48.ico" />
+    <Content Include="Resources\Automatic48.png" />
+    <Content Include="Resources\Automatick-Logo.png" />
+    <Content Include="Resources\Automatick-Logo2.png" />
+    <Content Include="Resources\Automatick-Logo4.png" />
+    <Content Include="Resources\favicon_16x16.ico" />
+    <Content Include="Resources\Flag red.png" />
+    <Content Include="Resources\Flag16Disable.png" />
+    <Content Include="Resources\Flag16Enable.png" />
+    <Content Include="Resources\if_page_copy_36245.png" />
+    <Content Include="Resources\play16.png" />
+    <Content Include="Resources\play48.png" />
+    <Content Include="Resources\Sale.ico" />
+    <Content Include="Resources\stop16.png" />
+    <Content Include="Resources\stop48.png" />
+    <Content Include="Resources\ticket1.png" />
+    <Content Include="Resources\ticket2.png" />
+    <Content Include="Resources\ticket3.png" />
+    <Content Include="Resources\TicketFound.mp3" />
+    <Content Include="Resources\TicketFound.wav" />
+    <Content Include="Resources\xtreme.ico" />
+    <Content Include="Resources\xtreme.png" />
+    <Content Include="Resources\xtreme16.ico" />
+    <Content Include="Resources\xtreme16.png" />
+    <Content Include="Resources\xtreme24.png" />
+    <Content Include="Resources\xtreme32.ico" />
+    <Content Include="Resources\xtreme32.png" />
+    <None Include="Resources\stopb16.png" />
+    <None Include="Resources\playb16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

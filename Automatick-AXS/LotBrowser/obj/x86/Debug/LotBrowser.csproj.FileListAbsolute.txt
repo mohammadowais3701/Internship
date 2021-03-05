@@ -1,0 +1,135 @@
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.exe.config
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.exe
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.pdb
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Core.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotID-Core.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\MongoDB.Bson.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\MongoDB.Driver.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Server-Automation-Core.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\AWSSDK.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Ionic.Zip.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotID-Core.pdb
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Core.xml
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.xml
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.xml
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\awesomium.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\icudt.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\avcodec-53.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\avformat-53.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\avutil-51.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\libEGL.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\libGLESv2.dll
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\awesomium_process
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\inspector.pak
+E:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\xinput9_1_0.dll
+E:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.browser.resources
+E:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.Properties.Resources.resources
+E:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.csproj.GenerateResource.Cache
+E:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.exe
+E:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.pdb
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.exe.config
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.exe
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.pdb
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Core.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotID-Core.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\LotID-Core.pdb
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Core.xml
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.xml
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.xml
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\awesomium.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\icudt.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\avcodec-53.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\avformat-53.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\avutil-51.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\libEGL.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\libGLESv2.dll
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\awesomium_process
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\inspector.pak
+F:\Projects\Automatick-AXS\LotBrowser\bin\x86\Debug\xinput9_1_0.dll
+F:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.browser.resources
+F:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.Properties.Resources.resources
+F:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.exe
+F:\Projects\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.pdb
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\LotBrowser.exe.config
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\LotBrowser.exe
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\LotBrowser.pdb
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Awesomium.Core.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\LotID-Core.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\LotID-Core.pdb
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Awesomium.Core.xml
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.xml
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.xml
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\awesomium.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\icudt.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\avcodec-53.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\avformat-53.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\avutil-51.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\libEGL.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\libGLESv2.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\awesomium_process
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\inspector.pak
+F:\Projects\Automatick-AXS - Copy\LotBrowser\bin\x86\Debug\xinput9_1_0.dll
+F:\Projects\Automatick-AXS - Copy\LotBrowser\obj\x86\Debug\LotBrowser.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\LotBrowser\obj\x86\Debug\LotBrowser.browser.resources
+F:\Projects\Automatick-AXS - Copy\LotBrowser\obj\x86\Debug\LotBrowser.Properties.Resources.resources
+F:\Projects\Automatick-AXS - Copy\LotBrowser\obj\x86\Debug\LotBrowser.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS - Copy\LotBrowser\obj\x86\Debug\LotBrowser.exe
+F:\Projects\Automatick-AXS - Copy\LotBrowser\obj\x86\Debug\LotBrowser.pdb
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.exe.config
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.exe
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\LotBrowser.pdb
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Core.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\LotID-Core.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\MongoDB.Bson.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\MongoDB.Driver.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Server-Automation-Core.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\AWSSDK.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\SASharedMessages.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Ionic.Zip.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\LotID-Core.pdb
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Core.xml
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Controls.xml
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\Awesomium.Windows.Forms.xml
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\awesomium.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\icudt.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\avcodec-53.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\avformat-53.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\avutil-51.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\libEGL.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\libGLESv2.dll
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\awesomium_process
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\inspector.pak
+E:\Automatick-AXS\LotBrowser\bin\x86\Debug\xinput9_1_0.dll
+E:\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.browser.resources
+E:\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.Properties.Resources.resources
+E:\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.csproj.GenerateResource.Cache
+E:\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.exe
+E:\Automatick-AXS\LotBrowser\obj\x86\Debug\LotBrowser.pdb

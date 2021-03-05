@@ -1,0 +1,520 @@
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+N:\Bots_Latests\Automatic-Droptick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.pdb
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.xml
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+I:\Midhat\Projects\AXS\AXS_Site\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Core.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AXSTixToxService.exe
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SAPipeLibrary.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SAPushClientLibrary.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SASharedMessages.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Auth.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Star.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\StarClient.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TCPClient.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TraceUtils.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\CaptchaFactory.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\CapsiumSharedMessages.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\DecaptcherLib.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TokenUtilityLibrary.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AXSTixToxService.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TCPClient.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Core.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.xml
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Auth.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Star.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\StarClient.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TraceUtils.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\CaptchaFactory.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TokenUtilityLibrary.pdb
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\awesomium.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\icudt.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\avcodec-53.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\avformat-53.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\avutil-51.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\libEGL.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\libGLESv2.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\awesomium_process
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\inspector.pak
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\xinput9_1_0.dll
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptcha.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+E:\Projects\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Core.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AXSTixToxService.exe
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SAPipeLibrary.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SAPushClientLibrary.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SASharedMessages.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Auth.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Star.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\StarClient.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TCPClient.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TraceUtils.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\CaptchaFactory.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\CapsiumSharedMessages.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\DecaptcherLib.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TokenUtilityLibrary.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\AXSTixToxService.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TCPClient.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Core.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Auth.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\SharedMessages.Star.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\StarClient.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TraceUtils.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\CaptchaFactory.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\TokenUtilityLibrary.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\awesomium.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\icudt.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\avcodec-53.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\avformat-53.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\avutil-51.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\libEGL.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\libGLESv2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\awesomium_process
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\inspector.pak
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\bin\x86\Debug\xinput9_1_0.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptcha.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Core.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AXSTixToxService.exe
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SAPipeLibrary.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SAPushClientLibrary.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SASharedMessages.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SharedMessages.Auth.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SharedMessages.Star.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\StarClient.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TCPClient.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TraceUtils.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\CaptchaFactory.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\CapsiumSharedMessages.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\DecaptcherLib.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TokenUtilityLibrary.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AXSTixToxService.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TCPClient.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Core.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.xml
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SharedMessages.Auth.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SharedMessages.Star.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\StarClient.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TraceUtils.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\CaptchaFactory.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TokenUtilityLibrary.pdb
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\awesomium.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\icudt.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\avcodec-53.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\avformat-53.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\avutil-51.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\libEGL.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\libGLESv2.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\awesomium_process
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\inspector.pak
+E:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\xinput9_1_0.dll
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptcha.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+E:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Bucket.exe
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Awesomium.Core.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\GeneralBucket.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\SAPipeLibrary.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\SAPushClientLibrary.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\TraceUtils.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\CaptchaFactory.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\DecaptcherLib.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\CapsiumSharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Awesomium.Core.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.xml
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\TraceUtils.pdb
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\awesomium.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\icudt.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\avcodec-53.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\avformat-53.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\avutil-51.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\libEGL.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\libGLESv2.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\awesomium_process
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\inspector.pak
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\bin\x86\Debug\xinput9_1_0.dll
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptcha.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmReport.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+F:\Projects\Automatick-AXS - Copy\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Bucket.exe
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe.config
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.exe
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickAXS.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Core.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\DriveInfoEx.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\GeneralBucket.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SAPipeLibrary.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SAPushClientLibrary.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TraceUtils.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\CaptchaFactory.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\DecaptcherLib.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\CapsiumSharedMessages.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Core.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Controls.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\Awesomium.Windows.Forms.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Command.2.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Gauge.2.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Input.2.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1InputPanel.2.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Ribbon.2.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\C1.Win.C1Win7Pack.2.xml
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\TraceUtils.pdb
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\awesomium.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\icudt.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\avcodec-53.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\avformat-53.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\avutil-51.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\libEGL.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\libGLESv2.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\awesomium_process
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\inspector.pak
+F:\Projects\Automatick-AXS\TMXtremeSales\bin\x86\Debug\xinput9_1_0.dll
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptcha.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmFindTicket.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmProxies.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmAccount.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\GuageTest.Form1.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmGroup.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmEmail.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmMain.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.Properties.Resources.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmReport.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.frmTicket.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick.ucRecentItem.resources
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\Automatick-AXS.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe.licenses
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.exe
+F:\Projects\Automatick-AXS\TMXtremeSales\obj\x86\Debug\AutomatickAXS.pdb

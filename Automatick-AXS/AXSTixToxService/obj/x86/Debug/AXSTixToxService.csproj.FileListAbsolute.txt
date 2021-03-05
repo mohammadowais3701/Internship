@@ -1,0 +1,6 @@
+E:\Projects\Automatick-AXS\AXSTixToxService\bin\x86\Debug\AXSTixToxService.exe.config
+E:\Projects\Automatick-AXS\AXSTixToxService\bin\x86\Debug\AXSTixToxService.exe
+E:\Projects\Automatick-AXS\AXSTixToxService\bin\x86\Debug\AXSTixToxService.pdb
+E:\Projects\Automatick-AXS\AXSTixToxService\obj\x86\Debug\AXSTixToxService.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\AXSTixToxService\obj\x86\Debug\AXSTixToxService.exe
+E:\Projects\Automatick-AXS\AXSTixToxService\obj\x86\Debug\AXSTixToxService.pdb

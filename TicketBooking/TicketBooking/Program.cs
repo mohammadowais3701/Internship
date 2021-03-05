@@ -83,12 +83,16 @@ namespace TicketBooking
                
 
                 string postData = "r=" + r + "&cf_captcha_kind=" + kind + "&vc=" + vc + "&h-captcha-response=" + Token+"&id="+id;// "&captcha_vc=69a3dc615bc2ff628ff9b54737b15a42&captcha_answer=VzgvSyVVTISz-10-62523a05dadf1943&cf_ch_verify=plat&h-captcha-response=captchka";
-                cookie = cookie + "cf_chl_2=" + cf_chl_2 + ";cf_chl_prog=a21";
+                cookie = cookie + "cf_chl_2="+cf_chl_2 +";cf_chl_prog=a21";
                 queueItUrl = "https://tix.axs.com" + action;
                 cookie = updateCookies(cookie+";");
                 cookie= makeWebRequest("https://tix.axs.com"+action, "", cookie , "", "", "POST", "", "application/x-www-form-urlencoded", postData);
+                dic.Remove("cf_chl_2");
+                dic.Remove("cf_chl_prog");
                 cookie = updateCookies(cookie);
-
+                dic.Remove("cf_chl_2");
+                dic.Remove("cf_chl_prog");
+                cookie = updateCookies();
                 str = makeWebRequest(url,"",cookie);
             }
             string cookies =str.Split('|')[1];
@@ -114,21 +118,26 @@ namespace TicketBooking
                 Match m = reg.Match(cookies);
                 string cooki = Convert.ToString(m).Replace(";","");
                 string version = str;
+                cookies = updateCookies(cooki + ";");
+                cookies += "AMCV_B7B972315A1341150A495EFE%40AdobeOrg=1075005958%7CMCIDTS%7C18306%7CMCMID%7C83045388051431756754518782686414686273%7CMCOPTOUT-1581622579s%7CNONE%7CvVersion%7C4.4.1;AMCVS_B7B972315A1341150A495EFE%40AdobeOrg=1;s_gnr7="+ UnixTimeNow(DateTime.Now) +"-New; s_cc=true;";
+                cookies = updateCookies(cookies);
                 str = getContent("https://tix.axs.com/js/bundle_" + str,cookies);
                 string  patt = "recaptchaV3SiteKey:.*?,";
                 reg = new Regex(patt);
                 m = reg.Match(str);
                 string key = Convert.ToString(m).Split(':')[1].Replace("\"", "");
                 key = key.Replace(",", "");
-                str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/metadata/operations/all", "", cookies, "");
+            /*    str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/metadata/operations/all", "", cookies, "");
                 cookies = str.Split('|')[1];
-                cookies = garbageRemoving(cookies + ";");
-                dic.Clear();
-            
-                cookies = updateCookies(cookies);
-                cookies = updateCookies(cooki+";");
-                cookies += "AMCV_B7B972315A1341150A495EFE%40AdobeOrg=870038026%7CMCIDTS%7C18682%7CMCMID%7C91546822546792475073344016533577201971%7CMCOPTOUT-1614096554s%7CNONE%7CvVersion%7C5.0.0;AMCVS_B7B972315A1341150A495EFE%40AdobeOrg=1; gpv_pn=tix.axs.com%3Acheckout%3Acaptcha; gpv_c7=tix.axs.com%3A; s_gnr7=1614089354835-New; s_cc=true;";
-                cookies = updateCookies(cookies);
+                cookies = garbageRemoving(cookies + ";");*/
+              
+                //;gpv_pn=tix.axs.com%3Acheckout%3Acaptcha;gpv_c7=tix.axs.com%3A
+            //    cookies = updateCookies(cookies);
+          //      cookies = updateCookies(cooki+";");
+              //  cookies += "AMCV_B7B972315A1341150A495EFE%40AdobeOrg=870038026%7CMCIDTS%7C18688%7CMCMID%7C02431469850514197525418140895094715957%7CMCOPTOUT-1614588812s%7CNONE%7CvVersion%7C5.0.0; AMCVS_B7B972315A1341150A495EFE%40AdobeOrg=1;gpv_pn=tix.axs.com%3Acheckout%3Acaptcha;gpv_c7=tix.axs.com%3A;s_gnr7="+UnixTimeNow(DateTime.Now)+"-New; s_cc=true;";
+                //cookies = updateCookies(cookies);
+                dic["s_gnr7"] = Convert.ToString(UnixTimeNow(DateTime.Now));
+                cookies = updateCookies();
                 str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/pre-flow/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F/phase?reservation=false", "", cookies, "needed");
                 var webencode = System.Net.WebUtility.UrlEncode(str.Split('|')[0]);
                 Console.WriteLine(webencode);
@@ -137,6 +146,7 @@ namespace TicketBooking
                 cookies = cookies.Replace("|", "");
                 
                 //cookies = garbageRemoving(cookies.Split('|')[0]);
+
                 cookies = updateCookies(cookies);
                 string temp = cookies;
                 //str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/socket.io/?transport=polling", "", cookies, FanSightTab);
@@ -145,12 +155,53 @@ namespace TicketBooking
                 //cookies = updateCookies(cookies);
                 string Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
                 string postData = "";
-                cookies = temp;
-                cookies = updateCookies(cookies);
-                postData = "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
+             //   cookies = temp;
+                dic.Remove("__cfduid");
+                dic.Remove("__cf_bm");
+                dic["s_gnr7"] = Convert.ToString(UnixTimeNow(DateTime.Now));
+                //;gpv_pn=tix.axs.com%3Acheckout%3Acaptcha;gpv_c7=tix.axs.com%3A
+                dic.Add("gpv_pn", "tix.axs.com%3Acheckout%3Acaptcha");
+                dic.Add("gpv_c7", "tix.axs.com%3A");
+                cookies = updateCookies();
                 temp = cookies;
-                cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", cookies, FanSightTab, "", "POST", Token, "application/json", postData);
-             //   do
+                postData = "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
+
+                cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", temp, FanSightTab, "", "POST", Token, "application/json", postData);
+                dic.Remove("gpv_pn");
+                dic.Remove("gpv_c7");
+                if (cookies.Contains("needToSolveRecaptcha"))
+                {
+                   
+                    cookies = garbageRemoving(cookies.Split('|')[0]);
+                    Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
+                    dic["s_gnr7"] = Convert.ToString(UnixTimeNow(DateTime.Now));
+                    cookies = updateCookies(cookies);
+                   // dic.Remove("gpv_pn");
+                    //dic.Remove("gpv_c7");
+                
+                    temp = cookies;
+                    do
+                    {
+                       // Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
+
+                        postData = "{\"token\":\"" + Token + "\"}";
+                        cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/recaptcha-verification/v1/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", temp, FanSightTab, "", "POST", Token, "application/json", postData);
+                      /*  if (jsonString.Contains("false")) 
+                          Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");*/
+                           
+                        
+                    } while (jsonString.Contains("false"));
+                
+                }
+                //   cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", cookies, FanSightTab, "", "POST", Token, "application/json", postData);
+          /*      do{
+                    postData = "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
+                    cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", temp, FanSightTab, "", "POST", Token, "application/json", postData);
+                    if (cookies.Contains("needToSolveRecaptcha")) {
+                     Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
+                    }
+                } while (cookies.Contains("needToSolveRecaptcha") || cookies.Contains("Unauthorized"));*/
+                /*   //   do
                // {
 
                 if (cookies.Split('|')[1].Equals("needToSolveRecaptcha"))
@@ -159,17 +210,34 @@ namespace TicketBooking
                     cookies = garbageRemoving(cookies.Split('|')[0]);
                   //  temp = cookies.Replace("|", "");
                     cookies = updateCookies(cookies.Split('|')[0]);
-                    cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/recaptcha-verification/v1/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", cookies, FanSightTab, "", "POST", Token, "application/json", postData);
-                } //    Token= Distill.ChecknSolveCaptcha("https://tix.axs.com");
-               // } while (cookies.Equals("needToSolveRecaptcha"));
+                    temp = cookies;
+                    do
+                    {
+                        cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/recaptcha-verification/v1/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", temp, FanSightTab, "", "POST", Token, "application/json", postData);
+                    } while (cookies.Contains("Missing Recaptcha"));
+                    } //    Token= Distill.ChecknSolveCaptcha("https://tix.axs.com");
+               // } while (cookies.Equals("needToSolveRecaptcha"));*/
+             //   dic.Add(" gpv_pn", "tix.axs.com%3Acheckout%3Acaptcha");
+               // dic.Add(" gpv_c7", "tix.axs.com%3A");
                 cookies = garbageRemoving(cookies.Split('|')[0]);
                 cookies= cookies.Replace("|", "");
+                dic["s_gnr7"] = Convert.ToString(UnixTimeNow(DateTime.Now));
                 cookies = updateCookies(cookies);
                 cookies = cookies.Replace("|", "");
                
                 cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/onsale/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F?sessionID=", "", cookies, FanSightTab, webencode);
 
-             
+                var gpv_c7 = System.Net.WebUtility.UrlEncode("tix.axs.com:select tickets");
+                gpv_c7 = gpv_c7.Replace("+", "%20");
+                reg=new Regex("\"eventID\":\\d*");
+                m=reg.Match(jsonString);
+                string eventID = Convert.ToString(m).Split(':')[1];
+                reg = new Regex("\"contextID\":\\d*");
+                m = reg.Match(jsonString);
+
+                string contextID = Convert.ToString(m).Split(':')[1];
+                var gpv_pn = System.Net.WebUtility.UrlEncode("tix.axs.com:selection:select tickets:"+contextID+":"+eventID);
+                gpv_pn = gpv_pn.Replace("+", "%20");
                 cookies = garbageRemoving(cookies.Split('|')[0]);
                 temp = cookies;
                 cookies = updateCookies(cookies.Replace(";",""));
@@ -193,13 +261,64 @@ namespace TicketBooking
                 cookies = updateCookies(cookies);
                 cookies = cookies.Replace("|", "");*/
                 str = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/inventory/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F/price?locale=en-US&getSections=true&grouped=true&includeSoldOuts=false&includeDynamicPrice=true", "", temp, FanSightTab);
+              
+               
                 cookies = garbageRemoving(str.Split('|')[0]);
                 cookies = updateCookies(cookies);
                 JObject obj = getJson(jsonString);
              //   str = "{\"offerId\":\"" + offerId + "\",\"offerGroupID\":\"" + offerGroupID + "\",\"productID\":\"" + productID + "\",\"qty\":\"" + qty + "\",\"priceTypeID\":\"" + priceTypeID + "\",\"section\":\"" + section + "\"}";
-             
-                postData = "{\"selections\":[{\"offerID\":\"" + Convert.ToString(obj["offerId"]) + "\",\"offerGroupID\":\""+Convert.ToString(obj["offerGroupID"])+"\",\"productID\":\""+Convert.ToString(obj["productID"])+"\",\"searches\":[{\"quantity\":"+Convert.ToInt32(obj["qty"])+",\"sectionID\":null,\"priceTypeID\":\""+Convert.ToString(obj["priceTypeID"])+"\",\"req\":[-1,-1]}],\"optionalFeeId\":null}],\"nextPage\":\"shop__delivery-method-page\",\"overwrite\":true}";
+                dic.Add("gpv_c7", gpv_c7);
+                dic.Add("gpv_pn", gpv_pn);
+                dic["s_gnr7"] = Convert.ToString(UnixTimeNow(DateTime.Now));
+                cookies = updateCookies();
+                postData = "{\"selections\":[{\"offerID\":\"" + Convert.ToString(obj["offerId"]) + "\",\"offerGroupID\":\""+Convert.ToString(obj["offerGroupID"])+"\",\"productID\":\""+Convert.ToString(obj["productID"])+"\",\"searches\":[{\"quantity\":"+1+",\"sectionID\":null,\"priceTypeID\":\""+Convert.ToString(obj["priceTypeID"])+"\",\"reqR\":[-1,-1]}],\"optionalFeeId\":null}],\"nextPage\":\"shop__delivery-method-page\",\"overwrite\":true}";
                cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/cart/v2/add-items?onsaleID=2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F&locale=en-US&checkPriceChange=true", "", cookies, FanSightTab, "", "POST", "", "application/json", postData);
+
+
+            /*   cookies = garbageRemoving(str.Split('|')[0]);
+               dic["s_gnr7"] = Convert.ToString(UnixTimeNow(DateTime.Now));
+               cookies = updateCookies(cookies);
+               temp = cookies;
+               postData = "{\"locale\":\"en-US\",\"meta\":{\"version\":\"" + version.Replace(".js", "") + "\"},\"recaptchaToken\":\"" + Token + "\",\"queueItUrl\":\"" + queueItUrl + "\"}";
+               cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/session/v2/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", temp, FanSightTab, "", "POST", Token, "application/json", postData);
+               dic.Remove("gpv_pn");
+               dic.Remove("gpv_c7");
+               if (cookies.Contains("needToSolveRecaptcha"))
+               {
+
+                   cookies = garbageRemoving(cookies.Split('|')[0]);
+
+                   cookies = updateCookies(cookies.Split('|')[0]);
+                   // dic.Remove("gpv_pn");
+                   //dic.Remove("gpv_c7");
+
+                   temp = cookies;
+                   do
+                   {
+                       postData = "{\"token\":\"" + Token + "\"}";
+                       cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/recaptcha-verification/v1/2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F", "", temp, FanSightTab, "", "POST", Token, "application/json", postData);
+                       if (jsonString.Contains("false"))
+                       {
+                           Token = Distill.ChecknSolveCaptcha("https://tix.axs.com");
+                       }
+                   } while (jsonString.Contains("false"));
+
+               }
+               dic.Add("gpv_c7", gpv_c7);
+               dic.Add("gpv_pn", gpv_pn);
+               cookies = updateCookies();
+               postData = "{\"selections\":[{\"offerID\":\"" + Convert.ToString(obj["offerId"]) + "\",\"offerGroupID\":\"" + Convert.ToString(obj["offerGroupID"]) + "\",\"productID\":\"" + Convert.ToString(obj["productID"]) + "\",\"searches\":[{\"quantity\":" + 1 + ",\"sectionID\":null,\"priceTypeID\":\"" + Convert.ToString(obj["priceTypeID"]) + "\",\"reqR\":[-1,-1]}],\"optionalFeeId\":null}],\"nextPage\":\"shop__delivery-method-page\",\"overwrite\":true}";
+               cookies = makeWebRequest("https://unifiedapicommerce.us-prod0.axs.com/veritix/cart/v2/add-items?onsaleID=2L07CQAAAACSWLmzMgAAAADl%2Fv%2F%2F%2FwD%2F%2F%2F%2F%2FBXRoZW1lAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F&locale=en-US&checkPriceChange=true", "", cookies, FanSightTab, "", "POST", "", "application/json", postData);*/
+           //    jsonString="{"results":[{"offerID":"850639192","productID":"850639106","offerGroupID":"850639193","success":true}],"cart":{"cartID":1008480,"expiration":1614756113647,"subTotal":6750,"feeTotal":1555,"donationTotal":0,"grandTotal":8305,"selections":[{"category":"ADMISSIONS","isUpsell":false,"offerType":"STANDARD","offerID":"850639192","offerGroupID":"850639193","productID":"850639106","eventID":"2796","types":[{"priceTypeID":"45068","priceLevelID":"3964","label":"Regular 2","unitPrice":6750,"quantity":1,"priceTotal":6750,"items":[{"sectionID":"21","sectionLabel":"GAFLOOR","rowID":"21","rowLabel":"GA","seatID":"432","seatLabel":"GA","info1":"","info2":"","deliveryMethodId":0,"assignedCustomerId":0,"neighborhoodPrintDescription":"Admissions","sectionPrintDescription":"GA FLOOR"}],"preTaxUnitPrice":6750,"taxes":[],"fullPriceCodeInfo":{"unitPrice":null,"label":null}}],"quantity":1,"priceTotal":6750,"deliveryMethodID":"3621"}],"fees":[{"id":"850936929","label":"Convenience Fee","unitPrice":1555,"quantity":1,"total":1555,"taxes":[],"preTaxUnitPrice":0}],"taxes":[],"paymentMethods":[{"id":"101","code":"VI","token":null,"type":"CreditCard"},{"id":"102","code":"MC","token":null,"type":"CreditCard"},{"id":"100","code":"AX","token":null,"type":"CreditCard"},{"id":"103","code":"DI","token":null,"type":"CreditCard"},{"id":"2006","code":"PayPal","token":"eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpGVXpJMU5pSXNJbXRwWkNJNklqSXdNVGd3TkRJMk1UWXRjSEp2WkhWamRHbHZiaUlzSW1semN5STZJbWgwZEhCek9pOHZZWEJwTG1KeVlXbHVkSEpsWldkaGRHVjNZWGt1WTI5dEluMC5leUpsZUhBaU9qRTJNVFE0TkRJeU1UUXNJbXAwYVNJNklqRTFPR0V5TWpoaExUUXdOVFF0TkRKbFppMWhOekV3TFdabU5qVXpOamt5TVRBMVpDSXNJbk4xWWlJNkltWmtlalI0TmpRMmRtTm9lblJxTW5RaUxDSnBjM01pT2lKb2RIUndjem92TDJGd2FTNWljbUZwYm5SeVpXVm5ZWFJsZDJGNUxtTnZiU0lzSW0xbGNtTm9ZVzUwSWpwN0luQjFZbXhwWTE5cFpDSTZJbVprZWpSNE5qUTJkbU5vZW5ScU1uUWlMQ0oyWlhKcFpubGZZMkZ5WkY5aWVWOWtaV1poZFd4MElqcG1ZV3h6Wlgwc0luSnBaMmgwY3lJNld5SnRZVzVoWjJWZmRtRjFiSFFpWFN3aWMyTnZjR1VpT2xzaVFuSmhhVzUwY21WbE9sWmhkV3gwSWwwc0ltOXdkR2x2Ym5NaU9udDlmUS44bmtJbnByR2ZKZDlBNkZGbnQyVzJGdTEzanlTYlRyZzhXOGZEdTUxQndSOUtqSjVNSHV0Tk1xdGZDd2E1bXl3YlJ0eVNreHBydW52aUVtblVkaWtnZyIsImNvbmZpZ1VybCI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZmR6NHg2NDZ2Y2h6dGoydC9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJncmFwaFFMIjp7InVybCI6Imh0dHBzOi8vcGF5bWVudHMuYnJhaW50cmVlLWFwaS5jb20vZ3JhcGhxbCIsImRhdGUiOiIyMDE4LTA1LTA4IiwiZmVhdHVyZXMiOlsidG9rZW5pemVfY3JlZGl0X2NhcmRzIl19LCJjbGllbnRBcGlVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL2ZkejR4NjQ2dmNoenRqMnQvY2xpZW50X2FwaSIsImVudmlyb25tZW50IjoicHJvZHVjdGlvbiIsIm1lcmNoYW50SWQiOiJmZHo0eDY0NnZjaHp0ajJ0IiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhdXRoVXJsIjoiaHR0cHM6Ly9hdXRoLnZlbm1vLmNvbSIsInZlbm1vIjoib2ZmIiwiY2hhbGxlbmdlcyI6W10sInRocmVlRFNlY3VyZUVuYWJsZWQiOmZhbHNlLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL2ZkejR4NjQ2dmNoenRqMnQifSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImJpbGxpbmdBZ3JlZW1lbnRzRW5hYmxlZCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOmZhbHNlLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwiYWxsb3dIdHRwIjpmYWxzZSwiZGlzcGxheU5hbWUiOiJBWFMgR3JvdXAgTExDIiwiY2xpZW50SWQiOiJBVFVXYkVwOFNWR0hzdGFrZ3g5UERjY25vYjJ5eHNvSkdCM3lGM2RMWWZGVGduc0N4Q1psUFVxV2JESGlSQmV0V195Ql9EQUNQZzhYSFFqNyIsInByaXZhY3lVcmwiOiJodHRwczovL3d3dy5heHMuY29tL2Fib3V0LXByaXZhY3ktcG9saWN5X1VTX3YyLmh0bWwiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cHM6Ly93d3cuYXhzLmNvbS9hYm91dC10ZXJtcy1vZi11c2VfVVNfdjEuaHRtbCIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImVudmlyb25tZW50IjoibGl2ZSIsImJyYWludHJlZUNsaWVudElkIjoiQVJLcllSRGgzQUdYRHpXN3NPXzNiU2txLVUxQzdIR191V05DLXo1N0xqWVNETlVPU2FPdElhOXE2VnBXIiwibWVyY2hhbnRBY2NvdW50SWQiOiJwcF9heHNfZGVmYXVsdCIsImN1cnJlbmN5SXNvQ29kZSI6IlVTRCJ9fQ==","type":"PayPal"}],"salesTaxTotal":null,"taxCompProfiles":[],"deliveryMethods":{"850639192":[{"id":"3621","description":"AXS Mobile ID - Free (Recommended)","process":"FlashSeats","specialInstructions":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><p>\n\t<strong>AXS Mobile ID</strong><br />\n\tShow your AXS Mobile ID in the AXS app then get it scanned to enter. Your AXS Mobile ID is the secure and unique code for all of your tickets, and all you need is the AXS app to use it. No paper tickets required.<br />\n\t&nbsp;<br />\n\tTo use your tickets:<br />\n\t1 &ndash; Download the AXS Mobile App <strong>(</strong><a href=\"https://itunes.apple.com/us/app/axs/id679805463\" target=\"_blank\"><strong>iOS&nbsp;</strong></a><strong>&nbsp;or&nbsp;</strong><a href=\"https://play.google.com/store/apps/details?id=com.axs.android&amp;hl=en\" target=\"_blank\"><strong>Android</strong></a><strong>).</strong><br />\n\t2 &ndash; Open the app and sign in to view your AXS Mobile ID and ticket info.<br />\n\t3 &ndash; Show your AXS Mobile ID in the app at the door to scan and enter.<br />\n\t<br />\n\tBuying tickets for a group? Make sure everyone enters together or, for events with transfer enabled,&nbsp;use the app to transfer tickets to everyone&nbsp;before the event.</p>\n<p>\n\t<strong>NOTE: Ticket delivery or transfer may be delayed or disabled for some events.</strong></p>\n"},{"id":"7242","description":"Standard Mail - $15.00","process":"StandardShipping","specialInstructions":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><p>\n\t<strong>STANDARD MAIL: </strong>On the next business day after your purchase, your tickets will be sent to you via USPS (United States Postal Service) and will arrive in 5-10 business days. For assistance please visit <a href=\"http://support.axs.com/\">http://support.axs.com</a>.</p>\n"},{"id":"3624","description":"Will Call - $6.00","process":"WillCall","specialInstructions":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><p>\n\t<span><strong><span><strong><span><strong><span><strong><span><strong>WILL CALL: </strong></span></strong></span></strong></span></strong></span></strong><span><span><span><span>Please present a valid photo ID, confirmation number/email, and the credit card used for purchase. For assistance please visit <a href=\"http://support.axs.com\">http://support.axs.com</a>.</span></span></span></span></span></p>\n<p>\n\t&nbsp;</p>\n"}]},"isEMV":false,"donations":[]},"message":"New cart successfully created.","status":{"status":201,"message":"Created"},"sessionExpireAt":1614757613647}";
+               JObject obj1 = JObject.Parse(jsonString);
+               
+               JArray cart = JArray.Parse(obj1["cart"].ToString());
+               JObject obj2 = JObject.Parse(obj1["cart"].ToString());
+               if (obj2.Property("selections") != null)
+               {
+                   JArray sel = JArray.Parse(obj2["selections"].ToString());
+                   Console.WriteLine(sel[0]);
+               }
 
             }
 
@@ -230,6 +349,7 @@ namespace TicketBooking
                 req.Credentials = CredentialCache.DefaultCredentials;
                 //  req.Accept = "application/json";
                 req.Headers.Add("Accept-Encoding", "gzip,deflate,br");
+                req.KeepAlive = true;
                 if (web.Contains("veritix"))
                 {
                     req.Accept = "application/json";
@@ -238,9 +358,9 @@ namespace TicketBooking
                 {
                     req.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";
                 }
-                req.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0";
+                req.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0";
                 req.Headers["Cookie"] = cookies;
-                req.Headers["DNT"] = "1";
+               // req.Headers["DNT"] = "1";
 
                 req.Headers["Accept-Language"] = "en-US,en;q=0.5";
                 req.KeepAlive = true;
@@ -389,8 +509,6 @@ namespace TicketBooking
                     cookies = updateCookies(cookies);
                     string str = reader.ReadToEnd();
                     return str;
-
-
                 }
 
                 return "";
@@ -432,7 +550,7 @@ namespace TicketBooking
                 req.KeepAlive = true;
                
            //     req.Accept = "application/json";
-                req.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0";
+                req.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0";
                 if (!cookies.Equals(""))
                     req.Headers["Cookie"] = cookies;
                 // req.Headers["DNT"] = "1";
@@ -567,6 +685,11 @@ namespace TicketBooking
         }
         return obj;
     
+    }
+ static public long UnixTimeNow(DateTime datetime)
+    {
+        TimeSpan _TimeSpan = (datetime - new DateTime(1970, 1, 1, 0, 0, 0));
+        return (long)_TimeSpan.TotalMilliseconds;
     }
     }
     class getHeaders

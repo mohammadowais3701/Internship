@@ -1,0 +1,10 @@
+E:\Projects\Automatick-AXS\TokenUtility\bin\x86\Debug\TokenUtilityLibrary.dll
+E:\Projects\Automatick-AXS\TokenUtility\bin\x86\Debug\TokenUtilityLibrary.pdb
+E:\Projects\Automatick-AXS\TokenUtility\obj\x86\Debug\TokenUtilityLibrary.dll
+E:\Projects\Automatick-AXS\TokenUtility\obj\x86\Debug\TokenUtilityLibrary.pdb
+E:\Projects\Automatick-AXS\TokenUtility\obj\x86\Debug\TokenUtilityLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\TokenUtility\bin\x86\Debug\TokenUtilityLibrary.dll
+F:\Projects\Automatick-AXS\TokenUtility\bin\x86\Debug\TokenUtilityLibrary.pdb
+F:\Projects\Automatick-AXS\TokenUtility\obj\x86\Debug\TokenUtilityLibrary.dll
+F:\Projects\Automatick-AXS\TokenUtility\obj\x86\Debug\TokenUtilityLibrary.pdb
+F:\Projects\Automatick-AXS\TokenUtility\obj\x86\Debug\TokenUtilityLibrary.csprojResolveAssemblyReference.cache

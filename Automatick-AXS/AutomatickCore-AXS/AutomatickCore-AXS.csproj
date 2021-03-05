@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A74115C8-8F65-4EF1-978A-B120DBAAA166}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Automatick</RootNamespace>
+    <AssemblyName>AutomatickCore-AXS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20121.33274, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20121.368, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="CapsiumSharedMessages">
+      <HintPath>..\Binaries\CapsiumSharedMessages.dll</HintPath>
+    </Reference>
+    <Reference Include="CaptchaFactory">
+      <HintPath>..\Binaries\CaptchaFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="DecaptcherLib">
+      <HintPath>..\Binaries\DecaptcherLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DriveInfoEx">
+      <HintPath>..\DriveInfoEx.dll</HintPath>
+    </Reference>
+    <Reference Include="GeneralBucket">
+      <HintPath>..\Binaries\GeneralBucket.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPipeLibrary">
+      <HintPath>..\Binaries\SAPipeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPushClientLibrary">
+      <HintPath>..\Binaries\SAPushClientLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SASharedMessages">
+      <HintPath>..\Binaries\SASharedMessages.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TraceUtils">
+      <HintPath>..\Binaries\TraceUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Classes\AntigateCaptchaService.cs" />
+    <Compile Include="Common\Classes\ApplicationStartup.cs" />
+    <Compile Include="Common\Classes\AutoCaptchaServices.cs" />
+    <Compile Include="Common\Classes\BoloCaptchaService.cs" />
+    <Compile Include="Common\Classes\BypassCaptchaService.cs" />
+    <Compile Include="Common\Classes\Captcha.cs" />
+    <Compile Include="Common\Classes\Captcha2.cs" />
+    <Compile Include="Common\Classes\Captchator.cs" />
+    <Compile Include="Common\Classes\ClientRequest.cs" />
+    <Compile Include="Common\Classes\CPTCaptchaService.cs" />
+    <Compile Include="Common\Classes\CustomCaptchaService.cs" />
+    <Compile Include="Common\Classes\DeathByCaptchaAPI.cs" />
+    <Compile Include="Common\Classes\DeathByCaptchaService.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\AccessDeniedException.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\Captcha.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\Client.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\Exception.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\HttpClient.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\InvalidCaptchaException.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\PollPayload.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\ServiceOverloadException.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\SimpleJson\Reader.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\SimpleJson\Writer.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\SocketClient.cs" />
+    <Compile Include="Common\Classes\DeathByCaptcha\User.cs" />
+    <Compile Include="Common\Classes\DeCaptchaService.cs" />
+    <Compile Include="Common\Classes\Email.cs" />
+    <Compile Include="Common\Classes\EmailSetting.cs" />
+    <Compile Include="Common\Classes\GlobalSettings.cs" />
+    <Compile Include="Common\Classes\ImageSenderForBolo.cs" />
+    <Compile Include="Common\Classes\ImgSender.cs" />
+    <Compile Include="Common\Classes\LotIDPicker.cs" />
+    <Compile Include="Common\Classes\OCRService.cs" />
+    <Compile Include="Common\Classes\PairDetector.cs" />
+    <Compile Include="Common\Classes\Paramter.cs" />
+    <Compile Include="Common\Classes\Proxy.cs" />
+    <Compile Include="Common\Classes\ProxyPicker.cs" />
+    <Compile Include="Common\Classes\RDCaptchaService.cs" />
+    <Compile Include="Common\Classes\ReCaptcha2C.cs" />
+    <Compile Include="Common\Classes\RecaptchaTokenApi2C.cs" />
+    <Compile Include="Common\Classes\RecaptchaTokenApiDBC.cs" />
+    <Compile Include="Common\Classes\RecaptchaTokenRDC.cs" />
+    <Compile Include="Common\Classes\ROCR\FormUpload.cs" />
+    <Compile Include="Common\Classes\ROCR\ROCRService.cs" />
+    <Compile Include="Common\Classes\ScriptEngine.cs" />
+    <Compile Include="Common\Classes\SeatsPair.cs" />
+    <Compile Include="Common\Classes\SOCRService.cs" />
+    <Compile Include="Common\Classes\SortableBindingList.cs" />
+    <Compile Include="Common\Classes\TicketGroup.cs" />
+    <Compile Include="Common\Classes\TicketSearchStatus.cs" />
+    <Compile Include="Common\Classes\UniqueKey.cs" />
+    <Compile Include="Common\Classes\Distill.cs" />
+    <Compile Include="Common\Interfaces\IAddTicket.cs" />
+    <Compile Include="Common\Interfaces\IAutoCaptchaService.cs" />
+    <Compile Include="Common\Interfaces\ICaptchaForm.cs" />
+    <Compile Include="Common\Interfaces\IForm.cs" />
+    <Compile Include="Common\Interfaces\IMainForm.cs" />
+    <Compile Include="Common\Interfaces\ISearchForm.cs" />
+    <Compile Include="Common\Interfaces\ISelectDateForm.cs" />
+    <Compile Include="Common\Interfaces\ITicket.cs" />
+    <Compile Include="Common\Interfaces\ITicketAccount.cs" />
+    <Compile Include="Common\Interfaces\ITicketDeliveryOption.cs" />
+    <Compile Include="Common\Interfaces\ITicketFoundCriteria.cs" />
+    <Compile Include="Common\Interfaces\ITicketParameter.cs" />
+    <Compile Include="Common\Interfaces\ITicketSearch.cs" />
+    <Compile Include="Common\License\frmRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\License\frmRequest.designer.cs">
+      <DependentUpon>frmRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\License\LicenseCore.cs" />
+    <Compile Include="Common\PPM\GoodProxies.cs" />
+    <Compile Include="Common\PPM\License\frmRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\PPM\License\frmRequest.designer.cs">
+      <DependentUpon>frmRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\PPM\License\LicenseCore.cs" />
+    <Compile Include="Common\PPM\LuminatiProxyManager.cs" />
+    <Compile Include="Common\PPM\ProxyManager.cs" />
+    <Compile Include="Common\PPM\ProxySelector.cs" />
+    <Compile Include="Common\PPM\RelayProxyManager.cs" />
+    <Compile Include="Common\PPM\SettingsStruct.cs" />
+    <Compile Include="Common\Classes\RecaptchaTokenApiAntigate.cs" />
+    <Compile Include="Common\SingleInstance.cs" />
+    <Compile Include="Common\TCPClient\CommandProcessor.cs" />
+    <Compile Include="Common\TCPClient\ImageBank.cs" />
+    <Compile Include="Common\TCPClient\ImageMerger.cs" />
+    <Compile Include="Common\TCPClient\LoadBalancer.cs" />
+    <Compile Include="Common\TCPClient\ProcessesWorker.cs" />
+    <Compile Include="Common\TCPClient\ServerPortsPicker.cs" />
+    <Compile Include="Common\TCPClient\TixToxProxyListener.cs" />
+    <Compile Include="Core\AutobuyLogs.cs" />
+    <Compile Include="Core\AXSDeliveryOption.cs" />
+    <Compile Include="Core\AXSEvent.cs" />
+    <Compile Include="Core\AXSFoundCriteria.cs" />
+    <Compile Include="Core\AXSParameter.cs" />
+    <Compile Include="Core\AXSPriceLevel.cs" />
+    <Compile Include="Core\AXSSearch.cs" />
+    <Compile Include="Core\AXSSection.cs" />
+    <Compile Include="Core\AXSTicket.cs" />
+    <Compile Include="Core\AXSTicketAccount.cs" />
+    <Compile Include="Core\AXSTicketType.cs" />
+    <Compile Include="Core\MultiEvent.cs" />
+    <Compile Include="Core\Presale.cs" />
+    <Compile Include="Core\Tix\AXSTixPriceLevels.cs" />
+    <Compile Include="Core\Tix\AXSTixPrices.cs" />
+    <Compile Include="Core\Tix\AXSTixPriceTypes.cs" />
+    <Compile Include="Core\Tix\AXSTixSection.cs" />
+    <Compile Include="Core\Tix\SeatsInfo.cs" />
+    <Compile Include="Core\Tix\SeatsInfoResale.cs" />
+    <Compile Include="frmCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCode.Designer.cs">
+      <DependentUpon>frmCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectDate.designer.cs">
+      <DependentUpon>frmSelectDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectAccount.designer.cs">
+      <DependentUpon>frmSelectAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectDeliveryOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectDeliveryOption.designer.cs">
+      <DependentUpon>frmSelectDeliveryOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Magic\Msg.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccessList\AccessRights.csproj">
+      <Project>{11DC3F2B-6112-4FE3-B786-0DC13E764B4F}</Project>
+      <Name>AccessRights</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomatickLogging\AutomatickLogging.csproj">
+      <Project>{60c41d4b-8de7-41ac-b6ba-b861a2e760ec}</Project>
+      <Name>AutomatickLogging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HtmlAgilityPack\HtmlAgilityPack.csproj">
+      <Project>{193BB801-054F-4729-9D5D-FCE1E32594BF}</Project>
+      <Name>HtmlAgilityPack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TCPClient\TCPClient.csproj">
+      <Project>{0fa89e6d-55c1-422b-addc-25b575928f80}</Project>
+      <Name>TCPClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Automatick.Core.AXSSearch.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\License\frmRequest.resx">
+      <DependentUpon>frmRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\PPM\License\frmRequest.resx">
+      <DependentUpon>frmRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCode.resx">
+      <DependentUpon>frmCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectDate.resx">
+      <DependentUpon>frmSelectDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectAccount.resx">
+      <DependentUpon>frmSelectAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectDeliveryOption.resx">
+      <DependentUpon>frmSelectDeliveryOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Automatic48.ico" />
+    <Content Include="Resources\1324639282_Edit-Male-User.png" />
+    <Content Include="Resources\1324639284_Edit-Male-User-16.png" />
+    <Content Include="Resources\1324639284_Edit-Male-User.png" />
+    <Content Include="Resources\1324639284_Edit-Male-User24.png" />
+    <Content Include="Resources\1324639344_network.png" />
+    <Content Include="Resources\1324639344_network16.png" />
+    <Content Include="Resources\1324649434_Flag1_Green.png" />
+    <Content Include="Resources\1324649434_Flag1_Green16.png" />
+    <Content Include="Resources\1324649434_Flag1_Green24.png" />
+    <Content Include="Resources\1333455860_email_open.png" />
+    <Content Include="Resources\1333455860_email_open16.png" />
+    <Content Include="Resources\1333455860_email_open24.png" />
+    <Content Include="Resources\1341900838_services.png" />
+    <Content Include="Resources\1341903520_Orange-Sale.png" />
+    <Content Include="Resources\1341903522_Orange-Sale.ico" />
+    <Content Include="Resources\1341905357_history.png" />
+    <Content Include="Resources\1341905376_gnome-mime-application-vnd.lotus-1-2-3.png" />
+    <Content Include="Resources\1341905376_gnome-mime-application-vnd.lotus-1-2-31.png" />
+    <Content Include="Resources\1341905378_gnome-mime-application-vnd.lotus-1-2-3.png" />
+    <Content Include="Resources\1347971328_save.png" />
+    <Content Include="Resources\1347971328_save16.png" />
+    <Content Include="Resources\1347971328_save32.png" />
+    <Content Include="Resources\1347981129_stats48.png" />
+    <Content Include="Resources\1347983536_arrow_up_right_16.png" />
+    <Content Include="Resources\1347983536_arrow_up_right_48.png" />
+    <Content Include="Resources\1348034999_continue.png" />
+    <Content Include="Resources\1348035001_stop.png" />
+    <Content Include="Resources\1350465055_box-16.png" />
+    <Content Include="Resources\1350465055_box.png" />
+    <Content Include="Resources\1350465055_box24.png" />
+    <Content Include="Resources\1350471720_category.png" />
+    <Content Include="Resources\1354172637_navigate-up.png" />
+    <Content Include="Resources\1354172644_navigate-down.png" />
+    <Content Include="Resources\1354172665_navigate-up.png" />
+    <Content Include="Resources\1354172669_navigate-down.png" />
+    <Content Include="Resources\Automatic16.png" />
+    <Content Include="Resources\Automatic32.ico" />
+    <Content Include="Resources\Automatic32.png" />
+    <Content Include="Resources\Automatic48.ico" />
+    <Content Include="Resources\Automatic48.png" />
+    <Content Include="Resources\Automatick-Logo.png" />
+    <Content Include="Resources\Automatick-Logo2.png" />
+    <Content Include="Resources\Automatick-Logo4.png" />
+    <Content Include="Resources\favicon_16x16.ico" />
+    <Content Include="Resources\Flag red.png" />
+    <Content Include="Resources\Flag16Disable.png" />
+    <Content Include="Resources\Flag16Enable.png" />
+    <Content Include="Resources\play16.png" />
+    <Content Include="Resources\play48.png" />
+    <Content Include="Resources\Sale.ico" />
+    <Content Include="Resources\stop16.png" />
+    <Content Include="Resources\stop48.png" />
+    <Content Include="Resources\ticket1.png" />
+    <Content Include="Resources\ticket2.png" />
+    <Content Include="Resources\ticket3.png" />
+    <Content Include="Resources\TicketFound.mp3" />
+    <Content Include="Resources\TicketFound.wav" />
+    <Content Include="Resources\xtreme.ico" />
+    <Content Include="Resources\xtreme.png" />
+    <Content Include="Resources\xtreme16.ico" />
+    <Content Include="Resources\xtreme16.png" />
+    <Content Include="Resources\xtreme24.png" />
+    <Content Include="Resources\xtreme32.ico" />
+    <Content Include="Resources\xtreme32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

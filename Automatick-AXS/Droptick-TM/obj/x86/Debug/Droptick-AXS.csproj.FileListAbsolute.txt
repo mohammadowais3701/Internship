@@ -1,0 +1,474 @@
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\DroptickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\DroptickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\AccessRights.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\AutomatickLogging.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\DriveInfoEx.dll
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\AccessRights.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS(WithCentrebell)\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\DroptickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\DroptickAXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\AccessRights.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\AutomatickLogging.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\DriveInfoEx.dll
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\AccessRights.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+N:\Bots_Latests\Automatic-Droptick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\DroptickAXS.exe
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\DroptickAXS.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\AccessRights.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\AutomatickLogging.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\Newtonsoft.Json.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\DriveInfoEx.dll
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\AccessRights.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\Newtonsoft.Json.pdb
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\bin\Debug\Newtonsoft.Json.xml
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+I:\Midhat\Projects\AXS\AXS_Site\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DroptickAXS.exe
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DroptickAXS.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AccessRights.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Core.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AXSTixToxService.exe
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SAPushClientLibrary.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SASharedMessages.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Auth.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Star.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\StarClient.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TCPClient.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TraceUtils.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\CaptchaFactory.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\CapsiumSharedMessages.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickLogging.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DecaptcherLib.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DriveInfoEx.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SAPipeLibrary.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TokenUtilityLibrary.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AccessRights.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AXSTixToxService.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TCPClient.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Core.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Auth.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Star.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\StarClient.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TraceUtils.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\CaptchaFactory.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TokenUtilityLibrary.pdb
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\awesomium.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\icudt.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\avcodec-53.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\avformat-53.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\avutil-51.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\libEGL.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\libGLESv2.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\awesomium_process
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\inspector.pak
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\bin\Debug\xinput9_1_0.dll
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmCaptcha.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+E:\Projects\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DroptickAXS.exe
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DroptickAXS.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AccessRights.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Core.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AXSTixToxService.exe
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Newtonsoft.Json.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SAPushClientLibrary.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SASharedMessages.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Auth.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Star.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\StarClient.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TCPClient.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TraceUtils.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\CaptchaFactory.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\CapsiumSharedMessages.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickLogging.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DecaptcherLib.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\DriveInfoEx.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SAPipeLibrary.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TokenUtilityLibrary.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AccessRights.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AXSTixToxService.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TCPClient.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Core.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Auth.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\SharedMessages.Star.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\StarClient.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TraceUtils.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\CaptchaFactory.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\TokenUtilityLibrary.pdb
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\awesomium.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\icudt.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\avcodec-53.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\avformat-53.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\avutil-51.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\libEGL.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\libGLESv2.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\awesomium_process
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\inspector.pak
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\bin\Debug\xinput9_1_0.dll
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmCaptcha.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+I:\Midhat\Projects\All BotsWith New Capsium\nanosoft_automatickaxs\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DroptickAXS.exe
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DroptickAXS.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AccessRights.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Core.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AXSTixToxService.exe
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SAPushClientLibrary.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SASharedMessages.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SharedMessages.Auth.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SharedMessages.Star.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\StarClient.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TCPClient.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TraceUtils.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\CaptchaFactory.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\CapsiumSharedMessages.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickLogging.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DecaptcherLib.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DriveInfoEx.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SAPipeLibrary.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TokenUtilityLibrary.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AccessRights.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AXSTixToxService.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TCPClient.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Core.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SharedMessages.Auth.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SharedMessages.Star.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\StarClient.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TraceUtils.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\CaptchaFactory.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TokenUtilityLibrary.pdb
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\awesomium.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\icudt.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\avcodec-53.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\avformat-53.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\avutil-51.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\libEGL.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\libGLESv2.dll
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\awesomium_process
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\inspector.pak
+E:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\xinput9_1_0.dll
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmCaptcha.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+E:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DroptickAXS.exe
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DroptickAXS.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Core.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AXSTixToxService.exe
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\GeneralBucket.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SAPushClientLibrary.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TraceUtils.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\CaptchaFactory.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DecaptcherLib.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\DriveInfoEx.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\SAPipeLibrary.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\CapsiumSharedMessages.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AXSTixToxService.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Core.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\TraceUtils.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\awesomium.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\icudt.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\avcodec-53.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\avformat-53.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\avutil-51.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\libEGL.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\libGLESv2.dll
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\awesomium_process
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\inspector.pak
+F:\Projects\Automatick-AXS\Droptick-TM\bin\Debug\xinput9_1_0.dll
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmCaptcha.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmReport.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+F:\Projects\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\DroptickAXS.exe.config
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\DroptickAXS.exe
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\DroptickAXS.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AccessRights.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AutomatickCore-AXS.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Awesomium.Core.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AXSTixToxService.exe
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1Command.2.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1Input.2.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\GeneralBucket.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\SAPushClientLibrary.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\TraceUtils.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\CaptchaFactory.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AutomatickLogging.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\DecaptcherLib.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\DriveInfoEx.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\SAPipeLibrary.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\CapsiumSharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AccessRights.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AutomatickCore-AXS.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AXSTixToxService.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Awesomium.Core.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Awesomium.Windows.Controls.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\Awesomium.Windows.Forms.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1Command.2.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1FlexGrid.2.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1Input.2.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\C1.Win.C1Ribbon.2.xml
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\TraceUtils.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\AutomatickLogging.pdb
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\awesomium.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\icudt.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\avcodec-53.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\avformat-53.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\avutil-51.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\libEGL.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\libGLESv2.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\awesomium_process
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\inspector.pak
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\bin\Debug\xinput9_1_0.dll
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmCaptcha.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmReport.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+F:\Projects\Automatick-AXS - Copy\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.Properties.Resources.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAccount.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmAutoCaptchaService.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmCaptcha.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmCaptchaBrowser.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmDeliveryOption.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmEmail.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmMain.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmProxies.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmReport.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Automatick.frmTicket.resources
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\Droptick-AXS.csproj.GenerateResource.Cache
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe.licenses
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.exe
+E:\Automatick-AXS\Droptick-TM\obj\x86\Debug\DroptickAXS.pdb

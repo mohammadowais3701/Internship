@@ -1,0 +1,52 @@
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe.config
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.pdb
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.dll
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.dll
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.xml
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.xml
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.csprojResolveAssemblyReference.cache
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.exe
+E:\Projects\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.pdb
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe.config
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.pdb
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.dll
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.dll
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.xml
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.exe
+F:\Projects\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.pdb
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe.config
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.pdb
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.dll
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\Nancy.dll
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.dll
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.pdb
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.xml
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.xml
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.exe
+F:\Projects\Automatick-AXS - Copy\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.pdb
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe.config
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.exe
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\AXSEventsWebInterface.pdb
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.dll
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.dll
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.dll
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.pdb
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\HtmlAgilityPack.xml
+E:\Automatick-AXS\AXSEventsWebInterface\bin\x86\Debug\Nancy.Hosting.Self.xml
+E:\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.csprojResolveAssemblyReference.cache
+E:\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.exe
+E:\Automatick-AXS\AXSEventsWebInterface\obj\x86\Debug\AXSEventsWebInterface.pdb

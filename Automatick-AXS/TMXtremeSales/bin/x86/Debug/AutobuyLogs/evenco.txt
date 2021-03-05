@@ -1,0 +1,72 @@
+
+====================================================================================================================================================================
+2/28/2019 12:40:30 PM => Login => {"related_accounts":[],"mpsToken":"3db9c4c2-5f4b-47cf-a3af-4a5b69296e30","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"NWI0NGZmZWE4ZDE5YTczY2I5YjkzMmY2N2VkMzY5NzgxZGYwYjkzMmYzZTFjNGVkMTAzNWRkYWFjNjkyMmE2OQ","refresh_token":"ZTliYzVlNTgwYjdiODE1OGIyOTg4N2U1MmY5NTg1ZTlkZDgyOWY3YmIyY2IwNzljNWFmNTRhY2YwNWYxYzBmOA"}}
+2/28/2019 12:46:34 PM => ORDER => {"message":"CART_EXPIRED","referenceNumber":"F6M7i7wn7leQLTjP-pQ6:6e-d","success":false}
+====================================================================================================================================================================
+2/28/2019 1:07:12 PM => Login => {"related_accounts":[],"mpsToken":"56bce09a-cc7b-40d4-9954-947f2b176fe4","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"MTJmOTU5NjY0MTBjMzljMTNiNjEzOTBhZDVjZmU4MDMyMjQ0MDdkNjA4ZTM1YmU1NTUzZjQ2NjYwY2E4YWM4YQ","refresh_token":"YjI4NDc2OGNiNmM0ODhiYTk3YmM1NjM3OWU5NjdiODE5YWU0ODk5MDBmODczYWMwODg1NTVkYWVkOWEzMmVjMA"}}
+2/28/2019 1:13:21 PM => ORDER => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+====================================================================================================================================================================
+2/28/2019 1:15:09 PM => Login => {"related_accounts":[],"mpsToken":"93fa292a-4b07-4bba-ae7f-5ed17827bb79","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"YzYxYzEzMWQzMDNlZmRmNTlmMzMzZWQ0NTg5MGM0ZDQ1OTU2NmRjNjIwOWJiYzRlOTI5ZWI4ZjEwNjY1ZTJlOQ","refresh_token":"OTZjZjRmNzYyYTA5MWE3NjYwODBmMzFkNWIzYzczNWM4M2U4ZDc2YmM1MTM4MDMwZmU0ZjE2Yjc4NmM1NzcxYg"}}
+2/28/2019 1:18:07 PM => ORDER => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+====================================================================================================================================================================
+2/28/2019 1:19:05 PM => Login => {"related_accounts":[],"mpsToken":"cc0a61ed-5ef0-4e7b-a813-7e79f0b1c682","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"YzZjN2RlMGIxNTY1MmJiNjE5NThkOTgwYWNhNGE5ZmI5MGU0MWY2OTM5MjczMzNkY2U5MGEyYzVlZTQ4ZWY2NQ","refresh_token":"YTg0OWNkMzFmOThjNzU0NzJiYzdhM2ZmOTMzNGI0NWU0ZThlMmU0MmJjYWJkYTViY2ViMmQ4OTg5ZWJkN2U4MA"}}
+2/28/2019 1:48:28 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"zSngXWmW1jryUuutTvSj:OR27","success":false}
+====================================================================================================================================================================
+2/28/2019 2:36:37 PM => Login => {"related_accounts":[],"mpsToken":"e51dd62f-7ec8-4156-aaef-4ee583722937","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"NmJkZWE4ZDQxMTVjOTNiZTgyOGM1OGI0NjkyNjFjNzVhZDVmMTY0ZWJkM2ExMWQ2ZWJkOTJjYWYwYWNmMjBiNw","refresh_token":"M2E3OGJhMTAyZjk1NWM5ZGRlMjlmZTFlOGEyZTAwMDU5YjIxYzhkNWM1MmM3YWQzYWIzMDMwMzUxZWJjNzFjZQ"}}
+2/28/2019 2:41:10 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"djVzPA1fvdKpDDJoMpyT:Q0Ns","success":false}
+2/28/2019 2:41:20 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"djVzPA1fvdKpDDJoMpyT:Q0Ns","success":false}
+====================================================================================================================================================================
+2/28/2019 2:44:36 PM => Login => {"related_accounts":[],"mpsToken":"1aeae40b-0a4b-4d2e-a98c-7db9fe0ccb75","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"YzYxOWNmODQ4YjQzNWQ1N2U4NjZlMTJjNThmMzRkNDM0ZTdjNzRhNmYzZDdkZDUyZGFiZDczNDY5MjUyNzQ5NA","refresh_token":"YTQwYWMwZGMwOTYyMDExZTU4ZDFiZjMzYzZhMDcxMjFmYzc5NTgyZTljZmE3MGU5YmYwNjkyZDQ1MjAwNGQ5OQ"}}
+2/28/2019 2:45:13 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"YuoyNaSfjRPGtYc6jF03:yNNy","success":false}
+2/28/2019 2:45:18 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"YuoyNaSfjRPGtYc6jF03:yNNy","success":false}
+====================================================================================================================================================================
+2/28/2019 4:20:27 PM => Login => {"related_accounts":[],"mpsToken":"8994b935-c2ae-4806-a03e-030616b61d35","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"YzZiNDUyOTQ1YWNhYzY5MTk2YzU2ZmMxMmMxZDliODViZGFlNGJlODJlZTBjNTcxYmE5MzExNDQ4NmUxNzExMA","refresh_token":"YWEyYWMxMzhlN2JiNTZiMGEzZTg4ZTY0MDIxZmQ4YTkxYjk4YTc0MGNjMmI4NDViNmIzZTYzMjY1YmUxMjE2Yw"}}
+2/28/2019 4:22:12 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"tP8FWuKf85WByuJF1c7x:sdwc","success":false}
+2/28/2019 4:22:21 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"tP8FWuKf85WByuJF1c7x:sdwc","success":false}
+====================================================================================================================================================================
+2/28/2019 4:23:37 PM => Login => {"related_accounts":[],"mpsToken":"4f28edf4-25ac-4cac-930d-58837f04932a","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"N2IxZjJlYjBmOTRhNzA4YWFiZDJmYzYwODFmY2RmNDMxMTYxMzUwMGEwNWEzNjJhMTAzNTVmYjc4NTUzNjEwNA","refresh_token":"MDFlYTcwNDBmMzBhMGZkNTBiOWIxMmU4NjljNTVlNzhkZmFhMGIzY2MxZmE4YzkxNzNmOTY2MGJmZTAzZjczYQ"}}
+2/28/2019 4:25:27 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"1onN1gdtJ0paUjmPUyC5:IKj0","success":false}
+2/28/2019 4:25:52 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"1onN1gdtJ0paUjmPUyC5:IKj0","success":false}
+====================================================================================================================================================================
+2/28/2019 4:34:42 PM => Login => {"related_accounts":[],"mpsToken":"bb2a1572-9c53-4468-8606-091db0269447","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"OTE3NDNhY2ZjMGNmNWU3ZDc0N2FlNGZmOTUzNWYzMDc3N2IyOGMzNzE0NThiYjljNDVlY2JiNzZhMzhiMjk2Yw","refresh_token":"YTJlNTI5OTYxYjkzMDMxNTAzYmQ3NjU1MDVmM2Q2MjgzNDQ1ZDc0NzY5MGEwMGFhZmY5ZTBiYjJmYzJiMDg2OA"}}
+2/28/2019 4:43:12 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"SnAq2YCQ1lYn89HR2lZ9:pJOy","success":false}
+2/28/2019 4:43:19 PM => ORDER => {"message":"CART_EXPIRED","referenceNumber":"SnAq2YCQ1lYn89HR2lZ9:pJOy","success":false}
+====================================================================================================================================================================
+2/28/2019 4:44:34 PM => Login => {"related_accounts":[],"mpsToken":"7fb14016-cafb-41ae-b08f-47e7b3348c3d","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"YjVjNjU0NGE2ZmZlZDlkNmY4MjViMDJiMzM5ZDFmNzY0ZTVjYzJjZmMwNjVmZTk5NWRlZjc5OGFlYjAxMjllMg","refresh_token":"YmRmMGEwZjk5MzQ1YTdkNGQzNDk1MGIyMjg4YzkzYzBmZDEwNzdkZWJiNmZhNWVmNzcxOGI2MWZhNGI5OTU5YQ"}}
+2/28/2019 4:46:30 PM => ORDER => Unauthorized
+====================================================================================================================================================================
+2/28/2019 4:47:26 PM => Login => {"related_accounts":[],"mpsToken":"ecf4db9b-f820-4591-b7f4-9e8914cf0ca8","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"M2QyZTkwMWVhYmNjNWZkZDhkNGVhZjhiNTIzYzEwMjdmN2Y0ZDRlYTNlZDdiYTgyM2M1NTBjYWY2MGE5OWY2YQ","refresh_token":"MjY3YWE1YzgxNGIxZGVjM2MwN2JjMjMyZjNjZjIyNGZlMGQ4YTUzNWI0YWQ5NGNmYTI3MzRlNGJhYzg2ZGZiMw"}}
+2/28/2019 4:50:57 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"NUddg5D5eNi2XtjlADN7:80t-","success":false}
+2/28/2019 4:51:21 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"NUddg5D5eNi2XtjlADN7:80t-","success":false}
+====================================================================================================================================================================
+3/1/2019 1:14:10 PM => Login => {"related_accounts":[],"mpsToken":"a4a1b19b-e13c-4144-bd41-4a7cb30cb3e1","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"NWE4OWIzN2JiZjkwNzc2YWQ3YjI4NzQ2MzQwNDA5YjFjM2MwMWUwZTkzMGViOGFmMmExNjc4ZTBmNTcyYTI1OA","refresh_token":"MzA3NTAxY2Q0OWQwMDFmNGQwMzRjMjY2OTEyN2Y0YzZmMzJkYWI5ZTg5ZDVkODc4MjQzNDJlODU1MjRjYzljZQ"}}
+3/1/2019 1:15:32 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"vftiW6ld7FVj6mSkuX6x:AmS0","success":false}
+3/1/2019 1:15:38 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"vftiW6ld7FVj6mSkuX6x:AmS0","success":false}
+====================================================================================================================================================================
+====================================================================================================================================================================
+3/1/2019 1:19:30 PM => Login => {"related_accounts":[],"mpsToken":"4e696e77-d9f4-4330-92b4-a07f88c91ccf","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"NWUwMjk4NDA5YzdkOTUwYmZlMjkxMDNhOTY1YjgwNjQ2ODk4YWZkOWQzNzJjMWE5M2IyNDRkODQ1MDUzMTMzYQ","refresh_token":"YjE0MWViMTZmYjc2YWRlMzc3MzdlOTk1NmQwOGU4NDUwNzcxOGE2N2ZlNjlhOTVmOTdiNTkwOGE5MDhlYjQwZQ"}}
+3/1/2019 1:22:40 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"hNAuAG3-F5ccUibcjvLx:SpMN","success":false}
+3/1/2019 1:23:04 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"hNAuAG3-F5ccUibcjvLx:SpMN","success":false}
+====================================================================================================================================================================
+3/1/2019 1:25:29 PM => Login => {"related_accounts":[],"mpsToken":"c9bfe59c-38aa-41ec-9372-70f18a82af12","axsClientId":"1","type":"ots","email":"dummy.project.test@gmail.com","userId":null,"name":{"first":"Dummy","last":"Project"},"oauth":{"access_token":"NTMwYjdkNGEzNjA0MWI2MzU0ODEyNGE0YTM4MWIzMTA1YjkwYzFlZjNkNjBkZmM5NzE5ODAwMjlhMzhjODkwNA","refresh_token":"ZTQxY2VkMTY2MzlmYjA3ZWIxNGNlYzBkNDAzMjIzNDVmY2ZlYTQ4YzYwZjIxZDJhMTlmZjk1ZThkMGZkM2Q4OQ"}}
+3/1/2019 1:27:14 PM => ORDER => {"message":"ERROR_PLACE_ORDER","referenceNumber":"CyBfUyk1BkOlzUyNdcrM:97IB","success":false}

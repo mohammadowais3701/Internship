@@ -1,0 +1,35 @@
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\CefLotGenerator-Core.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\CefLotGenerator-Core.pdb
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\MongoDB.Bson.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\MongoDB.Driver.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\Server-Automation-Core.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\AWSSDK.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\Ionic.Zip.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.dll
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.pdb
+E:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\bin\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\CefLotGenerator-Core.pdb
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\MongoDB.Bson.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\MongoDB.Driver.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\Server-Automation-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\AWSSDK.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\SASharedMessages.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\bin\Debug\Ionic.Zip.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.dll
+F:\Projects\Automatick-AXS - Copy\CefLotGenerator-Core\obj\Debug\CefLotGenerator-Core.pdb

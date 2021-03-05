@@ -1,0 +1,17 @@
+E:\Projects\Automatick-AXS\TCPClient\bin\Debug\TCPClient.dll
+E:\Projects\Automatick-AXS\TCPClient\bin\Debug\TCPClient.pdb
+E:\Projects\Automatick-AXS\TCPClient\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Automatick-AXS\TCPClient\obj\Debug\TCPClient.dll
+E:\Projects\Automatick-AXS\TCPClient\obj\Debug\TCPClient.pdb
+E:\Projects\Automatick-AXS\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS - Copy\TCPClient\bin\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS - Copy\TCPClient\bin\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS - Copy\TCPClient\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS - Copy\TCPClient\obj\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS - Copy\TCPClient\obj\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS\TCPClient\bin\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS\TCPClient\bin\Debug\TCPClient.pdb
+F:\Projects\Automatick-AXS\TCPClient\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Automatick-AXS\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache
+F:\Projects\Automatick-AXS\TCPClient\obj\Debug\TCPClient.dll
+F:\Projects\Automatick-AXS\TCPClient\obj\Debug\TCPClient.pdb

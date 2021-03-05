@@ -1,0 +1,106 @@
+ jsonStr = this.Search.Session.Get("https://unifiedapicommerce.us-prod0.axs.com/veritix/inventory/V2/" + this.Search.OnSaleUrl + "/price?sessionID=" + this.Search.SessionKey + "&eventID=" + this.Search.EventID + "&locale=en-US&getSections=true&grouped=true&includeSoldOuts=false");
+
+                    if (jsonStr.ToLower().Equals("unauthorized") || jsonStr.Equals("Session Expired"))
+                    {
+                        jsonStr = this.Search.Session.Get("https://unifiedapicommerce.us-prod0.axs.com/veritix/inventory/V2/" + this.Search.OnSaleUrl + "/price?locale=en-US&getSections=true&grouped=true&includeSoldOuts=false&includeDynamicPrice=true");
+                    }
+
+
+sessionKey=1O5a28ly3XyscmRIjGwd%3AhXDh
+
+
+
+  try
+                    {
+                        offerIds = new Dictionary<string, string>();
+                        JArray jOfferPrices = JArray.Parse(obj["offerPrices"].ToString());
+                        foreach (JToken item in jOfferPrices)
+                        {
+                            try
+                            {
+                                String id = item["offerID"].ToString();
+                                String groupID = item["offerGroupID"].ToString();
+
+                                offerIds.Add(id, groupID);
+                            }
+                            catch { }
+                        }
+                    }
+
+
+
+
+
+
+                    if (pricelevel.Property("availability") != null)
+                                                {
+                                                    JObject availability = (JObject)pricelevel["availability"];
+
+                                                    if (availability.Property("sections") != null)
+                                                    {
+                                                        JArray sections = (JArray)availability["sections"];
+
+                                                        if (sections.Count > 0)
+                                                        {
+                                                            foreach (JObject section in sections)
+                                                            {
+                                                                String _id = Convert.ToString(section["id"]);
+                                                                String _name = Convert.ToString(section["label"]);
+                                                                int seat = Convert.ToInt32(section["amount"]);
+                                                                AXSTixSection _section = new AXSTixSection(_id, _name, seat);
+                                                                price.Sections.Add(_section);
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            foreach (KeyValuePair<string,JToken> section in allSections)
+                                                            {
+                                                                try
+                                                                {
+
+                                                                    List<string> PriceTypeIDs = new List<string>();
+
+                                                                    JArray plevels = (JArray)section.Value["priceLevels"];
+
+
+                                                                    JArray prices = (JArray)section.Value["availability"]["prices"];
+
+                                                                    foreach (var pri in prices)
+                                                                    {
+                                                                        JArray priceTypes = (JArray)pri["priceTypes"];
+
+                                                                        foreach (JValue pricttype in priceTypes)
+                                                                        {
+                                                                            PriceTypeIDs.Add(pricttype.ToString());
+                                                                        }
+                                                                    }
+
+                                                                    foreach (JValue plev in plevels)
+                                                                    {
+                                                                        try
+                                                                        {
+                                                                            if (plev.ToString().Equals(id))
+                                                                            {
+                                                                                String _id = Convert.ToString(section.Value["sectionID"]);
+                                                                                String _name = Convert.ToString(section.Value["sectionLabel"]);
+                                                                                int seat = Convert.ToInt32(section.Value["availability"]["total"]);
+                                                                                AXSTixSection _section = new AXSTixSection(_id, _name, seat, PriceTypeIDs);
+                                                                                price.Sections.Add(_section);
+                                                                            }
+                                                                        }
+                                                                        catch (Exception ex)
+                                                                        {
+                                                                            Debug.WriteLine(ex.Message + Environment.NewLine + ex.StackTrace);
+                                                                        }
+                                                                    }
+                                                                }
+                                                                catch (Exception ex)
+                                                                {
+                                                                    Debug.WriteLine(ex.Message + Environment.NewLine + ex.StackTrace);
+                                                                }
+
+                                                            }
+
+                                                        }
+                                                    }
+                                                }
