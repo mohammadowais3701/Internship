@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Duplex1", "WCF_Duplex1\WCF_Duplex1.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_CLIENT_DUPLEX", "WCF_CLIENT_DUPLEX\WCF_CLIENT_DUPLEX.csproj", "{6E64E651-E4D2-4229-904E-9412986AC7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_HOST_DUPLEX", "WCF_HOST_DUPLEX\WCF_HOST_DUPLEX.csproj", "{FE02ADC0-5586-4E25-8FD8-407EF3C284EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E64E651-E4D2-4229-904E-9412986AC7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E64E651-E4D2-4229-904E-9412986AC7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E64E651-E4D2-4229-904E-9412986AC7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E64E651-E4D2-4229-904E-9412986AC7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE02ADC0-5586-4E25-8FD8-407EF3C284EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE02ADC0-5586-4E25-8FD8-407EF3C284EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE02ADC0-5586-4E25-8FD8-407EF3C284EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE02ADC0-5586-4E25-8FD8-407EF3C284EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

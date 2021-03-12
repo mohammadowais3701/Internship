@@ -1,0 +1,6 @@
+E:\Work\WCF_Duplex1\WCF_Duplex1\bin\Debug\WCF_Duplex1.dll.config
+E:\Work\WCF_Duplex1\WCF_Duplex1\bin\Debug\WCF_Duplex1.dll
+E:\Work\WCF_Duplex1\WCF_Duplex1\bin\Debug\WCF_Duplex1.pdb
+E:\Work\WCF_Duplex1\WCF_Duplex1\obj\Debug\WCF_Duplex1.csprojResolveAssemblyReference.cache
+E:\Work\WCF_Duplex1\WCF_Duplex1\obj\Debug\WCF_Duplex1.dll
+E:\Work\WCF_Duplex1\WCF_Duplex1\obj\Debug\WCF_Duplex1.pdb

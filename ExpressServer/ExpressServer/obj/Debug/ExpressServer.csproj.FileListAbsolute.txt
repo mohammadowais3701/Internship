@@ -1,0 +1,6 @@
+E:\Work\ExpressServer\ExpressServer\bin\Debug\ExpressServer.exe.config
+E:\Work\ExpressServer\ExpressServer\bin\Debug\ExpressServer.exe
+E:\Work\ExpressServer\ExpressServer\bin\Debug\ExpressServer.pdb
+E:\Work\ExpressServer\ExpressServer\obj\Debug\ExpressServer.csprojResolveAssemblyReference.cache
+E:\Work\ExpressServer\ExpressServer\obj\Debug\ExpressServer.exe
+E:\Work\ExpressServer\ExpressServer\obj\Debug\ExpressServer.pdb

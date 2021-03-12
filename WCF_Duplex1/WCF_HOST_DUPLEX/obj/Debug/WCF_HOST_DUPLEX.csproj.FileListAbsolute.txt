@@ -1,0 +1,10 @@
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_HOST_DUPLEX.exe.config
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_HOST_DUPLEX.exe
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_HOST_DUPLEX.pdb
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_CLIENT_DUPLEX.exe
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_Duplex1.dll
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_CLIENT_DUPLEX.pdb
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\bin\Debug\WCF_Duplex1.pdb
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\obj\Debug\WCF_HOST_DUPLEX.csprojResolveAssemblyReference.cache
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\obj\Debug\WCF_HOST_DUPLEX.exe
+E:\Work\WCF_Duplex1\WCF_HOST_DUPLEX\obj\Debug\WCF_HOST_DUPLEX.pdb

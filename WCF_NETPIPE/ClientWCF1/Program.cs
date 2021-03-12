@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Diagnostics;
 using System.ServiceModel;
 using WCF_NETPIPE;
@@ -11,6 +11,7 @@ using WCF_NETPIPE;
 
 namespace ClientWCF1
 {
+   
     
     class Program
     {
@@ -22,8 +23,10 @@ namespace ClientWCF1
             string contract = "IService1";*/
             ChannelFactory<IService1> channelFactory = null; 
             NetNamedPipeBinding netTcp = new NetNamedPipeBinding();
+           // var callback = new myCallBack();
+            //var context = new InstanceContext(callback);
             EndpointAddress endpointAddress = new EndpointAddress("net.pipe://localhost/WCF_NETPIPE/Service1");
-            
+        //    var factory = new DuplexChannelFactory<IServiceCallBack>(context,netTcp,endpointAddress)
             channelFactory = new ChannelFactory<IService1>(netTcp, endpointAddress);
             IService1 client = channelFactory.CreateChannel();
             Info info;      
@@ -36,14 +39,18 @@ namespace ClientWCF1
                 string name, text;
                 try
                 {
-                    Console.WriteLine("Enter 1st Number");
-                    a = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Enter 2nd Number");
-                    b = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Addition Result is:{0}", client.add(a, b));
-                    Console.WriteLine("Subtraction Result is:{0}", client.sub(a, b));
-                    Console.WriteLine("Multiplication Result is:{0}", client.mul(a, b));
-                    Console.WriteLine("Divide Result is:{0}", client.div(a, b));
+                    while (true)
+                    {
+                        // Console.WriteLine("Enter 1st Number");
+                        a = 12;
+                        //   Console.WriteLine("Enter 2nd Number");
+                        b = 4;
+                        Console.WriteLine("Addition Result is:{0}", client.add(a, b));
+                        Console.WriteLine("Subtraction Result is:{0}", client.sub(a, b));
+                        Console.WriteLine("Multiplication Result is:{0}", client.mul(a, b));
+                        Console.WriteLine("Divide Result is:{0}", client.div(a, b));
+                        Thread.Sleep(2000);
+                    }
                 }
                 catch (Exception ex) {
                     Console.WriteLine("In Calculator {0}",ex.Message);

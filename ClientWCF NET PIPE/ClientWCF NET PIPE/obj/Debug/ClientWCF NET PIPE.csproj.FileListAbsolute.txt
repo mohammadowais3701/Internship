@@ -1,0 +1,6 @@
+E:\Work\ClientWCF NET PIPE\ClientWCF NET PIPE\bin\Debug\ClientWCF NET PIPE.exe.config
+E:\Work\ClientWCF NET PIPE\ClientWCF NET PIPE\bin\Debug\ClientWCF NET PIPE.exe
+E:\Work\ClientWCF NET PIPE\ClientWCF NET PIPE\bin\Debug\ClientWCF NET PIPE.pdb
+E:\Work\ClientWCF NET PIPE\ClientWCF NET PIPE\obj\Debug\ClientWCF NET PIPE.csprojResolveAssemblyReference.cache
+E:\Work\ClientWCF NET PIPE\ClientWCF NET PIPE\obj\Debug\ClientWCF NET PIPE.exe
+E:\Work\ClientWCF NET PIPE\ClientWCF NET PIPE\obj\Debug\ClientWCF NET PIPE.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWCF NET PIPE", "ClientWCF NET PIPE\ClientWCF NET PIPE.csproj", "{391A88F4-57BA-46B6-82A7-6AB4C15F095B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWCF1", "..\WCF_NETPIPE\ClientWCF1\ClientWCF1.csproj", "{864C57FF-69B2-4659-8473-8C8EF0B7432E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{391A88F4-57BA-46B6-82A7-6AB4C15F095B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391A88F4-57BA-46B6-82A7-6AB4C15F095B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391A88F4-57BA-46B6-82A7-6AB4C15F095B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391A88F4-57BA-46B6-82A7-6AB4C15F095B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864C57FF-69B2-4659-8473-8C8EF0B7432E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864C57FF-69B2-4659-8473-8C8EF0B7432E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864C57FF-69B2-4659-8473-8C8EF0B7432E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864C57FF-69B2-4659-8473-8C8EF0B7432E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
